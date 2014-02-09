@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactNumber</key>
+	<array>
+		<string>3102061915</string>
+		<string>3102061915</string>
+		<string>3102061915</string>
+		<string>3102061915</string>
+		<string>3102061915</string>
+		<string>3102061921</string>
+		<string>3102061915</string>
+		<string>3108252715</string>
+		<string>3102061915</string>
+		<string>3102061915</string>
+		<string>3102061935</string>
+		<string>3102061902</string>
+		<string>3102061902</string>
+		<string>3102061902</string>
+		<string>3102061902</string>
+		<string>3102061915</string>
+	</array>
+	<key>contactEmail</key>
+	<array>
+		<string>ccadmin@career.ucla.edu</string>
+		<string>AlumService@career.ucla.edu</string>
+		<string>AlumService@career.ucla.edu</string>
+		<string>credential@career.ucla.edu</string>
+		<string>communications@career.ucla.edu</string>
+		<string>Media@career.ucla.edu</string>
+		<string>dbravo@career.ucla.edu</string>
+		<string>uclagardfair@career.ucla.edu</string>
+		<string>BruinView@career.ucla.edu</string>
+		<string>chall@career.ucla.edu</string>
+		<string>aaubin@career.ucla.edu</string>
+		<string>BruinView@career.ucla.edu</string>
+		<string>BruinView@career.ucla.edu</string>
+		<string>BruinView@career.ucla.edu</string>
+		<string>BruinView@career.ucla.edu</string>
+		<string>publications@career.ucla.edu</string>
+	</array>
+	<key>contactName</key>
+	<array>
+		<string>General Information</string>
+		<string>BruinView Alumni Subscription</string>
+		<string>Bruin Alumni</string>
+		<string>Credentials File Service</string>
+		<string>Questions and Feedback</string>
+		<string>Media Requests</string>
+		<string>Intership, International Opportunities</string>
+		<string>Graduate and Professional School Fair</string>
+		<string>Career Fairs</string>
+		<string>APSIA Fair</string>
+		<string>Partners and Benfactors Programs</string>
+		<string>BruinView Job and Internship Postings</string>
+		<string>BruinView Campus Interviews</string>
+		<string>Career Fairs</string>
+		<string>Recruiting at UCLA</string>
+		<string>Advertising Opportunities</string>
+	</array>
+</dict>
+</plist>

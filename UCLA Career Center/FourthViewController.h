@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FourthViewController : UIViewController
+@interface FourthViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

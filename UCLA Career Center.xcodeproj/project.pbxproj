@@ -24,6 +24,9 @@
 		0765D89118A6FDE900D79D34 /* UCLA_Career_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */; };
 		07C072A818A775E3004839E4 /* ContactInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072A718A775E3004839E4 /* ContactInformationViewController.m */; };
 		07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072AA18A77BA9004839E4 /* FourthViewController.m */; };
+		07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AC18A7EE99004839E4 /* ContactDatas.plist */; };
+		07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AE18A7F603004839E4 /* ContactTableCell.xib */; };
+		07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072B118A7F76A004839E4 /* ContactTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,10 @@
 		07C072A718A775E3004839E4 /* ContactInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInformationViewController.m; sourceTree = "<group>"; };
 		07C072A918A77BA9004839E4 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		07C072AA18A77BA9004839E4 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		07C072AC18A7EE99004839E4 /* ContactDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactDatas.plist; sourceTree = "<group>"; };
+		07C072AE18A7F603004839E4 /* ContactTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableCell.xib; sourceTree = "<group>"; };
+		07C072B018A7F76A004839E4 /* ContactTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableCell.h; sourceTree = "<group>"; };
+		07C072B118A7F76A004839E4 /* ContactTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +129,15 @@
 			isa = PBXGroup;
 			children = (
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
-				07C072A918A77BA9004839E4 /* FourthViewController.h */,
-				07C072AA18A77BA9004839E4 /* FourthViewController.m */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
-				07C072A718A775E3004839E4 /* ContactInformationViewController.m */,
 				07C072A618A775E3004839E4 /* ContactInformationViewController.h */,
+				07C072A718A775E3004839E4 /* ContactInformationViewController.m */,
+				07C072B018A7F76A004839E4 /* ContactTableCell.h */,
+				07C072B118A7F76A004839E4 /* ContactTableCell.m */,
+				07C072AE18A7F603004839E4 /* ContactTableCell.xib */,
+				07C072A918A77BA9004839E4 /* FourthViewController.h */,
+				07C072AA18A77BA9004839E4 /* FourthViewController.m */,
 				0765D87718A6FDE900D79D34 /* FirstViewController.h */,
 				0765D87818A6FDE900D79D34 /* FirstViewController.m */,
 				0765D87A18A6FDE900D79D34 /* SecondViewController.h */,
@@ -142,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				0765D86A18A6FDE900D79D34 /* UCLA Career Center-Info.plist */,
+				07C072AC18A7EE99004839E4 /* ContactDatas.plist */,
 				0765D86B18A6FDE900D79D34 /* InfoPlist.strings */,
 				0765D86E18A6FDE900D79D34 /* main.m */,
 				0765D87018A6FDE900D79D34 /* UCLA Career Center-Prefix.pch */,
@@ -244,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0765D87E18A6FDE900D79D34 /* Images.xcassets in Resources */,
+				07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */,
+				07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */,
 				0765D86D18A6FDE900D79D34 /* InfoPlist.strings in Resources */,
 				0765D87618A6FDE900D79D34 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */,
 				07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */,
 				0765D87C18A6FDE900D79D34 /* SecondViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
