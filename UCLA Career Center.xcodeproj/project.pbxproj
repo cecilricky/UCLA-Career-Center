@@ -22,6 +22,8 @@
 		0765D88718A6FDE900D79D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765D86618A6FDE900D79D34 /* UIKit.framework */; };
 		0765D88F18A6FDE900D79D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765D88D18A6FDE900D79D34 /* InfoPlist.strings */; };
 		0765D89118A6FDE900D79D34 /* UCLA_Career_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */; };
+		07C072A818A775E3004839E4 /* ContactInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072A718A775E3004839E4 /* ContactInformationViewController.m */; };
+		07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072AA18A77BA9004839E4 /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		0765D88C18A6FDE900D79D34 /* UCLA Career CenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UCLA Career CenterTests-Info.plist"; sourceTree = "<group>"; };
 		0765D88E18A6FDE900D79D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCLA_Career_CenterTests.m; sourceTree = "<group>"; };
+		07C072A618A775E3004839E4 /* ContactInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInformationViewController.h; sourceTree = "<group>"; };
+		07C072A718A775E3004839E4 /* ContactInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInformationViewController.m; sourceTree = "<group>"; };
+		07C072A918A77BA9004839E4 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		07C072AA18A77BA9004839E4 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +122,12 @@
 			isa = PBXGroup;
 			children = (
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
+				07C072A918A77BA9004839E4 /* FourthViewController.h */,
+				07C072AA18A77BA9004839E4 /* FourthViewController.m */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
+				07C072A718A775E3004839E4 /* ContactInformationViewController.m */,
+				07C072A618A775E3004839E4 /* ContactInformationViewController.h */,
 				0765D87718A6FDE900D79D34 /* FirstViewController.h */,
 				0765D87818A6FDE900D79D34 /* FirstViewController.m */,
 				0765D87A18A6FDE900D79D34 /* SecondViewController.h */,
@@ -254,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */,
 				0765D87C18A6FDE900D79D34 /* SecondViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
 				0765D87918A6FDE900D79D34 /* FirstViewController.m in Sources */,
+				07C072A818A775E3004839E4 /* ContactInformationViewController.m in Sources */,
 				0765D86F18A6FDE900D79D34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +478,7 @@
 				0765D89618A6FDE900D79D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0765D89718A6FDE900D79D34 /* Build configuration list for PBXNativeTarget "UCLA Career CenterTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +487,7 @@
 				0765D89918A6FDE900D79D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
