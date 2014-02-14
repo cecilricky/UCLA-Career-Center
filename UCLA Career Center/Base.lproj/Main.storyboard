@@ -233,33 +233,30 @@
                                 <rect key="frame" x="0.0" y="139" width="328" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2H-fG-RUA">
-                                <rect key="frame" x="91" y="101" width="139" height="30"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="u0b-OI-t8K">
+                                <rect key="frame" x="101" y="98" width="199" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Show Career Center">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <segments>
+                                    <segment title="My Location"/>
+                                    <segment title="Career Center"/>
+                                </segments>
                                 <connections>
-                                    <action selector="toggleCareerCenterDisplay:" destination="OSt-hc-AuT" eventType="touchUpInside" id="v3M-OD-vpz"/>
+                                    <action selector="toggleLocationFocus:" destination="OSt-hc-AuT" eventType="valueChanged" id="X3Y-NZ-a6H"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tan-pi-gJs">
-                                <rect key="frame" x="132" y="480" width="56" height="30"/>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Center:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTj-JQ-7cj">
+                                <rect key="frame" x="20" y="101" width="57" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Find Me">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="findUser:" destination="OSt-hc-AuT" eventType="touchUpInside" id="VUY-F4-lyF"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Maps" id="H33-FG-DJJ"/>
                     <connections>
-                        <outlet property="careerCenterButton" destination="b2H-fG-RUA" id="UXK-T2-6Jt"/>
-                        <outlet property="locatorButton" destination="tan-pi-gJs" id="UmZ-gs-rqG"/>
+                        <outlet property="locationDesignator" destination="u0b-OI-t8K" id="Jk0-6P-qmB"/>
                         <outlet property="worldView" destination="WHM-1o-3tv" id="AQy-m3-uB2"/>
                     </connections>
                 </viewController>
