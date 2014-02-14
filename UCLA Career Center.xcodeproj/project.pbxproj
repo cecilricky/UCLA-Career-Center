@@ -22,6 +22,7 @@
 		0765D88718A6FDE900D79D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765D86618A6FDE900D79D34 /* UIKit.framework */; };
 		0765D88F18A6FDE900D79D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765D88D18A6FDE900D79D34 /* InfoPlist.strings */; };
 		0765D89118A6FDE900D79D34 /* UCLA_Career_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */; };
+		07C072A818A775E3004839E4 /* ContactInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072A718A775E3004839E4 /* ContactInformationViewController.m */; };
 		07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072AA18A77BA9004839E4 /* FourthViewController.m */; };
 		07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AC18A7EE99004839E4 /* ContactDatas.plist */; };
 		07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AE18A7F603004839E4 /* ContactTableCell.xib */; };
@@ -64,6 +65,8 @@
 		0765D88C18A6FDE900D79D34 /* UCLA Career CenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UCLA Career CenterTests-Info.plist"; sourceTree = "<group>"; };
 		0765D88E18A6FDE900D79D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCLA_Career_CenterTests.m; sourceTree = "<group>"; };
+		07C072A618A775E3004839E4 /* ContactInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInformationViewController.h; sourceTree = "<group>"; };
+		07C072A718A775E3004839E4 /* ContactInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInformationViewController.m; sourceTree = "<group>"; };
 		07C072A918A77BA9004839E4 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		07C072AA18A77BA9004839E4 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		07C072AC18A7EE99004839E4 /* ContactDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactDatas.plist; sourceTree = "<group>"; };
@@ -142,11 +145,13 @@
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
-				07C072B318AC54E3004839E4 /* News Feed */,
+				07C072AE18A7F603004839E4 /* ContactTableCell.xib */,
+				0765D87718A6FDE900D79D34 /* FirstViewController.h */,
+				0765D87818A6FDE900D79D34 /* FirstViewController.m */,
 				0765D87A18A6FDE900D79D34 /* SecondViewController.h */,
 				0765D87B18A6FDE900D79D34 /* SecondViewController.m */,
-				CE0B7A8D18AB15C000A8FCEA /* Map */,
 				CE0B7A8E18AB15E000A8FCEA /* Contact */,
+				CE0B7A8D18AB15C000A8FCEA /* Map */,
 				0765D87D18A6FDE900D79D34 /* Images.xcassets */,
 				0765D86918A6FDE900D79D34 /* Supporting Files */,
 			);
@@ -183,15 +188,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		07C072B318AC54E3004839E4 /* News Feed */ = {
-			isa = PBXGroup;
-			children = (
-				0765D87818A6FDE900D79D34 /* FirstViewController.m */,
-				0765D87718A6FDE900D79D34 /* FirstViewController.h */,
-			);
-			name = "News Feed";
-			sourceTree = "<group>";
-		};
 		CE0B7A8D18AB15C000A8FCEA /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,9 +202,10 @@
 		CE0B7A8E18AB15E000A8FCEA /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				07C072AE18A7F603004839E4 /* ContactTableCell.xib */,
 				07C072A918A77BA9004839E4 /* FourthViewController.h */,
 				07C072AA18A77BA9004839E4 /* FourthViewController.m */,
+				07C072A618A775E3004839E4 /* ContactInformationViewController.h */,
+				07C072A718A775E3004839E4 /* ContactInformationViewController.m */,
 				07C072B018A7F76A004839E4 /* ContactTableCell.h */,
 				07C072B118A7F76A004839E4 /* ContactTableCell.m */,
 			);
@@ -321,6 +318,7 @@
 				0765D87C18A6FDE900D79D34 /* SecondViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
 				0765D87918A6FDE900D79D34 /* FirstViewController.m in Sources */,
+				07C072A818A775E3004839E4 /* ContactInformationViewController.m in Sources */,
 				0765D86F18A6FDE900D79D34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
