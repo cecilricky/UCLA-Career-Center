@@ -66,36 +66,33 @@
                                 </items>
                             </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WHM-1o-3tv">
-                                <rect key="frame" x="0.0" y="139" width="328" height="333"/>
+                                <rect key="frame" x="0.0" y="139" width="328" height="381"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2H-fG-RUA">
-                                <rect key="frame" x="91" y="101" width="139" height="30"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="u0b-OI-t8K">
+                                <rect key="frame" x="101" y="98" width="199" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Show Career Center">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <segments>
+                                    <segment title="My Location"/>
+                                    <segment title="Career Center"/>
+                                </segments>
                                 <connections>
-                                    <action selector="toggleCareerCenterDisplay:" destination="OSt-hc-AuT" eventType="touchUpInside" id="v3M-OD-vpz"/>
+                                    <action selector="toggleLocationFocus:" destination="OSt-hc-AuT" eventType="valueChanged" id="X3Y-NZ-a6H"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tan-pi-gJs">
-                                <rect key="frame" x="132" y="480" width="56" height="30"/>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Center:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTj-JQ-7cj">
+                                <rect key="frame" x="20" y="101" width="57" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Find Me">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="findUser:" destination="OSt-hc-AuT" eventType="touchUpInside" id="VUY-F4-lyF"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Maps" id="H33-FG-DJJ"/>
                     <connections>
-                        <outlet property="careerCenterButton" destination="b2H-fG-RUA" id="UXK-T2-6Jt"/>
-                        <outlet property="locatorButton" destination="tan-pi-gJs" id="UmZ-gs-rqG"/>
+                        <outlet property="locationDesignator" destination="u0b-OI-t8K" id="Jk0-6P-qmB"/>
                         <outlet property="worldView" destination="WHM-1o-3tv" id="AQy-m3-uB2"/>
                     </connections>
                 </viewController>
@@ -174,48 +171,52 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UCLA Career Center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKO-ai-jDw">
-                                <rect key="frame" x="20" y="83" width="228" height="40"/>
+                                <rect key="frame" x="72" y="83" width="228" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" fixedFrame="YES" scrollEnabled="NO" indicatorStyle="black" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i75-X1-M78">
-                                <rect key="frame" x="20" y="111" width="280" height="96"/>
+                                <rect key="frame" x="36" y="111" width="280" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">501 Westwood Plaza, 2nd &amp; 3rd Floor Los Angeles, CA 90095-1573  Phone: 3102061915 Hours: Monday to Friday, 9am-5pm 
-</string>
+                                <string key="text">501 Westwood Plaza, 2nd &amp; 3rd Floor
+Los Angeles, CA 90095-1573
+Phone: 3102061915
+Hours: Monday to Friday, 9am-5pm
+                                    
+                                </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sne-L4-KoB">
-                                <rect key="frame" x="9" y="201" width="307" height="318"/>
+                                <rect key="frame" x="0.0" y="201" width="316" height="318"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xAq-Ks-t71">
-                                        <rect key="frame" x="0.0" y="22" width="307" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="316" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xAq-Ks-t71" id="Dkr-VC-D7g">
-                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="KY9-sX-BFf">
-                                        <rect key="frame" x="0.0" y="66" width="307" height="44"/>
+                                        <rect key="frame" x="0.0" y="66" width="316" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KY9-sX-BFf" id="7cD-4u-Yd4">
-                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="eDQ-jl-HGx">
-                                        <rect key="frame" x="0.0" y="110" width="307" height="44"/>
+                                        <rect key="frame" x="0.0" y="110" width="316" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eDQ-jl-HGx" id="c11-vm-le7">
-                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="316" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>

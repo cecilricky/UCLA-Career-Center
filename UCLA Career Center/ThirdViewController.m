@@ -13,8 +13,7 @@
 {
     __weak IBOutlet MKMapView *worldView;
     CLLocationManager *locationManager;
-    __weak IBOutlet UIButton *careerCenterButton;
-    __weak IBOutlet UIButton *locatorButton;
+    __weak IBOutlet UISegmentedControl *locationDesignator;
 }
 
 @end
@@ -35,30 +34,30 @@
 - (void)viewDidLoad
 {
     [worldView setShowsUserLocation:YES];
+    LocationPoint *careerCenterLocationPoint = [[LocationPoint alloc] init];
+    [worldView addAnnotation:careerCenterLocationPoint];
 }
 
 #pragma UserDefined
-
-- (IBAction)toggleCareerCenterDisplay:(id)sender {
-    
-    if ([[careerCenterButton currentTitle]  isEqual: @"Show Career Center"])
-        //
+- (IBAction)toggleLocationFocus:(id)sender {
+    NSString *titleSegment = [locationDesignator titleForSegmentAtIndex:[locationDesignator selectedSegmentIndex]];
+    LocationPoint *careerCenterLocationPoint = [[LocationPoint alloc] init];
+    CLLocationDegrees lat = careerCenterLocationPoint.coordinate.latitude;
+    CLLocationDegrees lon = careerCenterLocationPoint.coordinate.longitude;
+    CLLocation *careerCenterLocation = [[CLLocation alloc] initWithLatitude:lat longitude:lon];
+    CLLocation *userLocation = [[CLLocation alloc] initWithLatitude:worldView.userLocation.coordinate.latitude longitude:worldView.userLocation.coordinate.longitude];
+    CLLocationDistance range = [careerCenterLocation distanceFromLocation:userLocation] * 2;
+    if ([titleSegment isEqualToString:(@"My Location")])
     {
-        LocationPoint *careerCenterLocation = [[LocationPoint alloc] init];
-        [worldView addAnnotation:careerCenterLocation];
-        [careerCenterButton setTitle:@"Hide Career Center" forState:UIControlStateNormal];
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, range, range);
+        [worldView setRegion:region animated:YES];
     }
     else
     {
-        [worldView removeAnnotations:[worldView annotations]];
-        [careerCenterButton setTitle:@"Show Career Center" forState:UIControlStateNormal];
+        CLLocationCoordinate2D careerCenterLocationCoordinate2D = CLLocationCoordinate2DMake(lat, lon);
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(careerCenterLocationCoordinate2D, range, range);
+        [worldView setRegion:region animated:YES];
     }
-}
-- (IBAction)findUser:(id)sender {
-    
-    CLLocationCoordinate2D loc = [[worldView userLocation] coordinate];
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(loc, 250, 250);
-    [worldView setRegion:region animated:YES];
 }
 
 @end
