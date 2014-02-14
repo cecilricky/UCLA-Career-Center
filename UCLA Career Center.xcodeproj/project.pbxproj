@@ -14,8 +14,6 @@
 		0765D86F18A6FDE900D79D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D86E18A6FDE900D79D34 /* main.m */; };
 		0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D87218A6FDE900D79D34 /* AppDelegate.m */; };
 		0765D87618A6FDE900D79D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0765D87418A6FDE900D79D34 /* Main.storyboard */; };
-		0765D87918A6FDE900D79D34 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D87818A6FDE900D79D34 /* FirstViewController.m */; };
-		0765D87C18A6FDE900D79D34 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D87B18A6FDE900D79D34 /* SecondViewController.m */; };
 		0765D87E18A6FDE900D79D34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0765D87D18A6FDE900D79D34 /* Images.xcassets */; };
 		0765D88518A6FDE900D79D34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765D88418A6FDE900D79D34 /* XCTest.framework */; };
 		0765D88618A6FDE900D79D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765D86218A6FDE900D79D34 /* Foundation.framework */; };
@@ -26,6 +24,15 @@
 		07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AC18A7EE99004839E4 /* ContactDatas.plist */; };
 		07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AE18A7F603004839E4 /* ContactTableCell.xib */; };
 		07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072B118A7F76A004839E4 /* ContactTableCell.m */; };
+		2F238BBC18ADCE6300EDAF73 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BAF18ADCE6300EDAF73 /* MasterViewController.m */; };
+		2F238BBD18ADCE6300EDAF73 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB118ADCE6300EDAF73 /* DetailViewController.m */; };
+		2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB318ADCE6300EDAF73 /* Tutorial.m */; };
+		2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB518ADCE6300EDAF73 /* Contributor.m */; };
+		2F238BC018ADCE6300EDAF73 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB718ADCE6300EDAF73 /* TFHppleElement.m */; };
+		2F238BC118ADCE6300EDAF73 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB918ADCE6300EDAF73 /* XPathQuery.m */; };
+		2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BBB18ADCE6300EDAF73 /* TFHpple.m */; };
+		2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */; };
+		2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */; };
 		CE0B7A8518AAFBF300A8FCEA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0B7A8418AAFBF300A8FCEA /* ThirdViewController.m */; };
 		CE0B7A8718AB0FE900A8FCEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0B7A8618AB0FE900A8FCEA /* CoreLocation.framework */; };
 		CE0B7A8918AB100000A8FCEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0B7A8818AB100000A8FCEA /* MapKit.framework */; };
@@ -54,10 +61,6 @@
 		0765D87118A6FDE900D79D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0765D87218A6FDE900D79D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0765D87518A6FDE900D79D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0765D87718A6FDE900D79D34 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		0765D87818A6FDE900D79D34 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		0765D87A18A6FDE900D79D34 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		0765D87B18A6FDE900D79D34 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0765D87D18A6FDE900D79D34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0765D88318A6FDE900D79D34 /* UCLA Career CenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCLA Career CenterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0765D88418A6FDE900D79D34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -70,6 +73,23 @@
 		07C072AE18A7F603004839E4 /* ContactTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableCell.xib; sourceTree = "<group>"; };
 		07C072B018A7F76A004839E4 /* ContactTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableCell.h; sourceTree = "<group>"; };
 		07C072B118A7F76A004839E4 /* ContactTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableCell.m; sourceTree = "<group>"; };
+		2F238BAE18ADCE6300EDAF73 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2F238BAF18ADCE6300EDAF73 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2F238BB018ADCE6300EDAF73 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2F238BB118ADCE6300EDAF73 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2F238BB218ADCE6300EDAF73 /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		2F238BB318ADCE6300EDAF73 /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
+		2F238BB418ADCE6300EDAF73 /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
+		2F238BB518ADCE6300EDAF73 /* Contributor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributor.m; sourceTree = "<group>"; };
+		2F238BB618ADCE6300EDAF73 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		2F238BB718ADCE6300EDAF73 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		2F238BB818ADCE6300EDAF73 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		2F238BB918ADCE6300EDAF73 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		2F238BBA18ADCE6300EDAF73 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		2F238BBB18ADCE6300EDAF73 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		2F238BC818ADCF3E00EDAF73 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CE0B7A8318AAFBF300A8FCEA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		CE0B7A8418AAFBF300A8FCEA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		CE0B7A8618AB0FE900A8FCEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -83,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */,
 				CE0B7A8918AB100000A8FCEA /* MapKit.framework in Frameworks */,
 				CE0B7A8718AB0FE900A8FCEA /* CoreLocation.framework in Frameworks */,
 				0765D86518A6FDE900D79D34 /* CoreGraphics.framework in Frameworks */,
@@ -126,6 +147,7 @@
 		0765D86118A6FDE900D79D34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */,
 				CE0B7A8818AB100000A8FCEA /* MapKit.framework */,
 				CE0B7A8618AB0FE900A8FCEA /* CoreLocation.framework */,
 				0765D86218A6FDE900D79D34 /* Foundation.framework */,
@@ -139,12 +161,11 @@
 		0765D86818A6FDE900D79D34 /* UCLA Career Center */ = {
 			isa = PBXGroup;
 			children = (
+				2F238BC718ADCF2800EDAF73 /* bruinview */,
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
 				07C072B318AC54E3004839E4 /* News Feed */,
-				0765D87A18A6FDE900D79D34 /* SecondViewController.h */,
-				0765D87B18A6FDE900D79D34 /* SecondViewController.m */,
 				CE0B7A8D18AB15C000A8FCEA /* Map */,
 				CE0B7A8E18AB15E000A8FCEA /* Contact */,
 				0765D87D18A6FDE900D79D34 /* Images.xcassets */,
@@ -186,10 +207,47 @@
 		07C072B318AC54E3004839E4 /* News Feed */ = {
 			isa = PBXGroup;
 			children = (
-				0765D87818A6FDE900D79D34 /* FirstViewController.m */,
-				0765D87718A6FDE900D79D34 /* FirstViewController.h */,
+				2F238BC418ADCE7500EDAF73 /* hpple */,
+				2F238BC318ADCE6B00EDAF73 /* Model */,
+				2F238BAE18ADCE6300EDAF73 /* MasterViewController.h */,
+				2F238BAF18ADCE6300EDAF73 /* MasterViewController.m */,
+				2F238BB018ADCE6300EDAF73 /* DetailViewController.h */,
+				2F238BB118ADCE6300EDAF73 /* DetailViewController.m */,
 			);
 			name = "News Feed";
+			sourceTree = "<group>";
+		};
+		2F238BC318ADCE6B00EDAF73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F238BB218ADCE6300EDAF73 /* Tutorial.h */,
+				2F238BB318ADCE6300EDAF73 /* Tutorial.m */,
+				2F238BB418ADCE6300EDAF73 /* Contributor.h */,
+				2F238BB518ADCE6300EDAF73 /* Contributor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2F238BC418ADCE7500EDAF73 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				2F238BB618ADCE6300EDAF73 /* TFHppleElement.h */,
+				2F238BB718ADCE6300EDAF73 /* TFHppleElement.m */,
+				2F238BB818ADCE6300EDAF73 /* XPathQuery.h */,
+				2F238BB918ADCE6300EDAF73 /* XPathQuery.m */,
+				2F238BBA18ADCE6300EDAF73 /* TFHpple.h */,
+				2F238BBB18ADCE6300EDAF73 /* TFHpple.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		2F238BC718ADCF2800EDAF73 /* bruinview */ = {
+			isa = PBXGroup;
+			children = (
+				2F238BC818ADCF3E00EDAF73 /* SecondViewController.h */,
+				2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */,
+			);
+			name = bruinview;
 			sourceTree = "<group>";
 		};
 		CE0B7A8D18AB15C000A8FCEA /* Map */ = {
@@ -317,11 +375,17 @@
 				CE0B7A9118AB16D200A8FCEA /* LocationPoint.m in Sources */,
 				07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */,
 				07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */,
+				2F238BBD18ADCE6300EDAF73 /* DetailViewController.m in Sources */,
 				CE0B7A8518AAFBF300A8FCEA /* ThirdViewController.m in Sources */,
-				0765D87C18A6FDE900D79D34 /* SecondViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
-				0765D87918A6FDE900D79D34 /* FirstViewController.m in Sources */,
 				0765D86F18A6FDE900D79D34 /* main.m in Sources */,
+				2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */,
+				2F238BBC18ADCE6300EDAF73 /* MasterViewController.m in Sources */,
+				2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */,
+				2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */,
+				2F238BC118ADCE6300EDAF73 /* XPathQuery.m in Sources */,
+				2F238BC018ADCE6300EDAF73 /* TFHppleElement.m in Sources */,
+				2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +514,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "UCLA Career Center/UCLA Career Center-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -463,6 +528,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "UCLA Career Center/UCLA Career Center-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
