@@ -37,12 +37,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="707" y="-156"/>
+            <point key="canvasLocation" x="641" y="-142"/>
         </scene>
-        <!--Third View Controller - Third-->
+        <!--View Controller - Third-->
         <scene sceneID="Wrg-Lq-cs9">
             <objects>
-                <viewController title="Third" id="OSt-hc-AuT" customClass="ThirdViewController" sceneMemberID="viewController">
+                <viewController title="Third" id="OSt-hc-AuT" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vd6-yL-Y9j"/>
                         <viewControllerLayoutGuide type="bottom" id="GQ9-ak-9rO"/>
@@ -65,43 +65,14 @@
                                     <navigationItem title="Maps" id="Raw-k8-alQ"/>
                                 </items>
                             </navigationBar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WHM-1o-3tv">
-                                <rect key="frame" x="0.0" y="139" width="328" height="333"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2H-fG-RUA">
-                                <rect key="frame" x="91" y="101" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Show Career Center">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="toggleCareerCenterDisplay:" destination="OSt-hc-AuT" eventType="touchUpInside" id="v3M-OD-vpz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tan-pi-gJs">
-                                <rect key="frame" x="132" y="480" width="56" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Find Me">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="findUser:" destination="OSt-hc-AuT" eventType="touchUpInside" id="VUY-F4-lyF"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Maps" id="H33-FG-DJJ"/>
-                    <connections>
-                        <outlet property="careerCenterButton" destination="b2H-fG-RUA" id="UXK-T2-6Jt"/>
-                        <outlet property="locatorButton" destination="tan-pi-gJs" id="UmZ-gs-rqG"/>
-                        <outlet property="worldView" destination="WHM-1o-3tv" id="AQy-m3-uB2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lo8-T7-Ri8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087" y="-275"/>
+            <point key="canvasLocation" x="1084" y="-313"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
