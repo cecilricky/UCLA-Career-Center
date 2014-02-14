@@ -3,13 +3,12 @@ v6
 r1
 cCheck dependencies
 cProcessPCH /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-acihoxsluwqslyevvojqwvmvjoks/UCLA\ Career\ Center-Prefix.pch.pch UCLA\ Career\ Center/UCLA\ Career\ Center-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/LocationPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ContactTableCell.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ContactTableCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FourthViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FourthViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/AppDelegate.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FirstViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ContactInformationViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ContactInformationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/main.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal i386
 cCopyPlistFile /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/ContactDatas.plist UCLA\ Career\ Center/ContactDatas.plist
@@ -56,11 +55,6 @@ c0000000052B0709C0000000000355050
 t1387294876
 s3493968
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c0000000052B0709C00000000000EC820
-t1387294876
-s968736
-
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 c0000000052B0709D00000000002F6810
 t1387294877
@@ -75,11 +69,6 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 c0000000052B0709E000000000088C680
 t1387294878
 s8963712
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c0000000052B0709E00000000002C78D0
-t1387294878
-s2914512
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
 c0000000052B0709F0000000000037620
@@ -237,138 +226,117 @@ t1387294939
 s20484
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/PrecompiledHeaders/UCLA Career Center-Prefix-acihoxsluwqslyevvojqwvmvjoks/UCLA Career Center-Prefix.pch.pch
-t1392183941
+t1391932384
 s115180
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/PrecompiledHeaders/UCLA Career Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA Career Center-Prefix.pch.pch
-t1392183941
+t1391937991
 s109536
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/AppDelegate.o
-t1392183941
+t1391961960
 s69000
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ContactInformationViewController.o
-c0000000052FB0A85000000000000E74C
-t1392183941
+t1391961960
 s59212
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ContactTableCell.o
-t1392183941
+t1391969596
 s50392
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/FirstViewController.o
-t1392183941
+t1391932384
 s41128
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/FourthViewController.o
-t1392183941
+t1391974430
 s62100
 
-N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/LocationPoint.o
-t1392183965
-s17256
-
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/SecondViewController.o
-t1392183941
+t1391932384
 s41148
 
-N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ThirdViewController.o
-t1392183965
-s65632
-
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/UCLA Career Center.LinkFileList
-c0000000052FC44D1000000000000066A
-t1392264401
-s1642
+c0000000052F7C53B00000000000005AC
+t1391969595
+s1452
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/main.o
-t1392183941
+t1391932384
 s3688
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/AppDelegate.o
-t1392183941
+t1391940269
 s72876
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ContactInformationViewController.o
-t1392183941
+t1391937992
 s52824
 
-N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ContactTableCell.o
-t1392184221
-s52172
-
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/FirstViewController.o
-t1392183941
+t1391937991
 s41812
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/FourthViewController.o
-t1392183941
+t1391937991
 s42964
 
-N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/LocationPoint.o
-t1392184221
-s20940
-
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/SecondViewController.o
-t1392183941
+t1391937991
 s41828
 
-N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ThirdViewController.o
-t1392184221
-s72548
-
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/UCLA Career Center.LinkFileList
-c0000000052FB0B9C000000000000075A
-t1392184220
-s1882
+c0000000052F749C600000000000004EA
+t1391937990
+s1258
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/main.o
-t1392183941
+t1391937991
 s3924
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/assetcatalog_dependencies.txt
-t1392183941
+t1391961962
 s2255
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/assetcatalog_generated_info.plist
-t1392183941
+t1391961962
 s1170
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app
-t1392264401
+t1391974430
 s748
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app.dSYM
-t1392264316
+t1391973981
 s102
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/Base.lproj/Main.storyboardc
-t1392264284
+t1391974432
 s272
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/ContactDatas.plist
-t1392183941
+t1391969596
 s979
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/ContactTableCell.nib
-t1392183941
+t1391973813
 s3810
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/Info.plist
-t1392183941
+t1391961964
 s1397
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/PkgInfo
-t1392183941
+t1391961964
 s8
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center
-t1392264401
-s52820
+t1391974430
+s42148
 
 N/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/en.lproj/InfoPlist.strings
-t1392183941
+t1391932384
 s42
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/AppDelegate.h
@@ -377,19 +345,19 @@ t1391904361
 s281
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/AppDelegate.m
-c0000000052F7DBF50000000000000DD8
-t1391975413
-s3544
+c0000000052F7543E0000000000000DD6
+t1391940670
+s3542
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/Base.lproj/Main.storyboard
-c0000000052FC44580000000000009518
-t1392264280
-s38168
+c0000000052F7D81E00000000000041E7
+t1391974430
+s16871
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactDatas.plist
-c0000000052F7E1C300000000000008A0
-t1391976899
-s2208
+c0000000052F7C53B00000000000008A6
+t1391969595
+s2214
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactInformationViewController.h
 c0000000052F75FBC000000000000012D
@@ -397,9 +365,9 @@ t1391943612
 s301
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactInformationViewController.m
-c0000000052F7DBF50000000000000B09
-t1391975413
-s2825
+c0000000052F7626A0000000000000B2F
+t1391944298
+s2863
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactTableCell.h
 c0000000052F7C18F0000000000000189
@@ -412,8 +380,8 @@ t1391969595
 s727
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactTableCell.xib
-c0000000052F7DBF50000000000001595
-t1391975413
+c0000000052F7D5A80000000000001595
+t1391973800
 s5525
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/FirstViewController.h
@@ -432,24 +400,14 @@ t1391965303
 s276
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/FourthViewController.m
-c0000000052F7E3CC0000000000000F04
-t1391977420
-s3844
+c0000000052F7D81E0000000000000CBB
+t1391974430
+s3259
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/Images.xcassets
 c0000000052F75A1200000000000000CC
 t1391942162
 s204
-
-N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.h
-c0000000052FB0A8500000000000001C0
-t1392183941
-s448
-
-N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m
-c0000000052FB0A850000000000000765
-t1392183941
-s1893
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewController.h
 c0000000052F731A300000000000000E7
@@ -460,16 +418,6 @@ N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewContro
 c0000000052F731A30000000000000209
 t1391931811
 s521
-
-N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.h
-c0000000052FB0A85000000000000015A
-t1392183941
-s346
-
-N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m
-c0000000052FB0A8500000000000006C5
-t1392183941
-s1733
 
 N/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/UCLA Career Center-Info.plist
 c0000000052F765D9000000000000055B
@@ -646,13 +594,7 @@ r0
 CBuild AST from /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FourthViewController.m
 r0
 
-CBuild AST from /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/LocationPoint.m
-r0
-
 CBuild AST from /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/SecondViewController.m
-r0
-
-CBuild AST from /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ThirdViewController.m
 r0
 
 CBuild AST from /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/main.m
@@ -660,7 +602,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies83dadf517cacb841^5c38f0517cacb841^---0#1#1#--18"Check dependencies36"7A5E30E0-D697-4EED-8B9A-49BFCAA684C4-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies18b5379e0fa8b841^8945389e0fa8b841^---0#1#1#--18"Check dependencies36"4D721E00-57D2-4706-8F2A-CA5C55B505BA-
 
 CCompileAssetCatalog /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/Images.xcassets
 s413654760.337595
@@ -772,22 +714,6 @@ d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/FourthViewContro
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/FourthViewController.m292"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.o UCLA\ Career\ Center/FourthViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1e4e389e0fa8b841^7f894c9e0fa8b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/FourthViewController.m0000000000000000^4593"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.o UCLA\ Career\ Center/FourthViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/i386 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-acihoxsluwqslyevvojqwvmvjoks/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FourthViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/FourthViewController.o36"F7FE30A4-B405-409B-81F9-508C282C2A6E-
 bFFD5BE6F-6D59-4F68-AF26-B9A04073B36B
 
-CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/LocationPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413876765.218927
-e413876765.408888
-r1
-xCompileC
-xDerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/LocationPoint.o
-x/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m278"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.o UCLA\ Career\ Center/LocationPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3a76381d42abb841^00ae681d42abb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/LocationPoint.m0000000000000000^4551"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.o UCLA\ Career\ Center/LocationPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/i386 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-acihoxsluwqslyevvojqwvmvjoks/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/LocationPoint.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/LocationPoint.o36"1C48342D-67EE-40D6-A494-0D1C34B454D4-
-bC16DB053-342E-46BB-99AA-63FE190913D5
-
 CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s413625184.455847
 e413625184.757533
@@ -803,23 +729,6 @@ d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewContro
 d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewController.m292"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.o UCLA\ Career\ Center/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ad674606ba7b841^81e8c1606ba7b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/SecondViewController.m0000000000000000^4593"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.o UCLA\ Career\ Center/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/i386 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-acihoxsluwqslyevvojqwvmvjoks/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/SecondViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/SecondViewController.o36"FEED1AA0-779D-47F6-95DA-6F7D3677DB27-
 b8645EA57-6617-47E6-B0C4-C6AF72696509
-
-CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413876765.219250
-e413876765.429898
-r1
-xCompileC
-xDerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ThirdViewController.o
-x/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.h
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m290"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.o UCLA\ Career\ Center/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerff41381d42abb841^1f0e6e1d42abb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/ThirdViewController.m0000000000000000^4587"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.o UCLA\ Career\ Center/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/i386 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-acihoxsluwqslyevvojqwvmvjoks/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ThirdViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/ThirdViewController.o36"80DB238A-6D1F-4082-986F-8B7719D6C712-
-bC16DB053-342E-46BB-99AA-63FE190913D5
 
 CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/main.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s413625184.458606
@@ -876,22 +785,6 @@ o2 warnings generated.
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactInformationViewController.m320"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactInformationViewController.o UCLA\ Career\ Center/ContactInformationViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd784e84781a7b841^3be1114881a7b841^-460"/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactInformationViewController.m:47:2: warning: Potentially incomplete method implementation. [-W#warnings]#warning Potentially incomplete method implementation. ^/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactInformationViewController.m:54:2: warning: Incomplete method implementation. [-W#warnings]#warning Incomplete method implementation. ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@45"Potentially incomplete method implementation.-413630792#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@112"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/ContactInformationViewController.m0000000000000000^46#1#46#1#1072#0#18"#warning Directive--2@33"Incomplete method implementation.-413630792#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@112"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/ContactInformationViewController.m0000000000000000^53#1#53#1#1273#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@112"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/ContactInformationViewController.m0000000000000000^4679"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactInformationViewController.o UCLA\ Career\ Center/ContactInformationViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/x86_64 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactInformationViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactInformationViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ContactInformationViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactInformationViewController.o36"B715B5BA-C8F3-4DE4-A7EB-0F576182F48D-
 bFECB069E-C5B3-4B87-BD73-51245FA714ED
 
-CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactTableCell.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ContactTableCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413877020.761790
-e413877021.005686
-r1
-xCompileC
-xDerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ContactTableCell.o
-x/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactTableCell.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactTableCell.m
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactTableCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ContactTableCell.m288"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactTableCell.o UCLA\ Career\ Center/ContactTableCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb325c31c43abb841^7976011d43abb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/ContactTableCell.m0000000000000000^4583"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactTableCell.o UCLA\ Career\ Center/ContactTableCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/x86_64 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactTableCell.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactTableCell.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ContactTableCell.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ContactTableCell.o36"6D8723D6-8296-4D88-889E-4052A60485A3-
-bD38606CF-D86D-4DF7-8FFA-CFC87E2231E4
-
 CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/FirstViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FirstViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s413630791.694354
 e413630791.907513
@@ -924,22 +817,6 @@ d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/FourthViewContro
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/FourthViewController.m296"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/FourthViewController.o UCLA\ Career\ Center/FourthViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc365b14781a7b841^4b3ce84781a7b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/FourthViewController.m0000000000000000^4607"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/FourthViewController.o UCLA\ Career\ Center/FourthViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/x86_64 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/FourthViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/FourthViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/FourthViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/FourthViewController.o36"A4653601-2B94-44E2-B278-A3157A194D09-
 bFECB069E-C5B3-4B87-BD73-51245FA714ED
 
-CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/LocationPoint.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/LocationPoint.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413877020.761561
-e413877021.081643
-r1
-xCompileC
-xDerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/LocationPoint.o
-x/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.m282"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/LocationPoint.o UCLA\ Career\ Center/LocationPoint.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7b13c31c43abb841^0400171d43abb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/LocationPoint.m0000000000000000^4565"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/LocationPoint.o UCLA\ Career\ Center/LocationPoint.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/x86_64 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/LocationPoint.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/LocationPoint.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/LocationPoint.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/LocationPoint.o36"56F8EE4A-A093-45A7-AFFE-61FDA734C6F9-
-bD38606CF-D86D-4DF7-8FFA-CFC87E2231E4
-
 CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/SecondViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/SecondViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s413630791.692714
 e413630791.907595
@@ -955,23 +832,6 @@ d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewContro
 d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/SecondViewController.m296"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/SecondViewController.o UCLA\ Career\ Center/SecondViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9e7db14781a7b841^035ce84781a7b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/SecondViewController.m0000000000000000^4607"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/SecondViewController.o UCLA\ Career\ Center/SecondViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/x86_64 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/SecondViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/SecondViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/SecondViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/SecondViewController.o36"D2F41736-C981-4E5E-9B31-9D821632C5A3-
 bFECB069E-C5B3-4B87-BD73-51245FA714ED
-
-CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ThirdViewController.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ThirdViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413877020.762104
-e413877021.246363
-r1
-xCompileC
-xDerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ThirdViewController.o
-x/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.h
-d/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/LocationPoint.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/ThirdViewController.m294"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ThirdViewController.o UCLA\ Career\ Center/ThirdViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4642c31c43abb841^7f123f1d43abb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/ThirdViewController.m0000000000000000^4601"CompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ThirdViewController.o UCLA\ Career\ Center/ThirdViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-generated-files.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-own-target-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-all-target-headers.hmap -iquote /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/UCLA\ Career\ Center-project-headers.hmap -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources/x86_64 -I/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/DerivedSources -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -include /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/PrecompiledHeaders/UCLA\ Career\ Center-Prefix-byijspfnngbigqafdsfbduqenesy/UCLA\ Career\ Center-Prefix.pch -MMD -MT dependencies -MF /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ThirdViewController.d --serialize-diagnostics /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ThirdViewController.dia -c /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ThirdViewController.m -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/ThirdViewController.o36"BC40C468-4C93-4C33-B7A5-4994AE0C2783-
-bD38606CF-D86D-4DF7-8FFA-CFC87E2231E4
 
 CCompileC DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/main.o /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s413630791.908048
@@ -990,13 +850,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile
 bFECB069E-C5B3-4B87-BD73-51245FA714ED
 
 CCompileStoryboard /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/Base.lproj/Main.storyboard
-s413957080.474737
-e413957084.973363
+s413667230.335965
+e413667232.535212
 r1
 xCompileStoryboard
 x/Users/cecilricky/Public/UCLA Career Center/UCLA Career Center/Base.lproj/Main.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard UCLA\ Career\ Center/Base.lproj/Main.storyboard65"CompileStoryboard UCLA\ Career\ Center/Base.lproj/Main.storyboardbea079d87bacb841^f92ef9dc7bacb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/Base.lproj/Main.storyboard0000000000000000^932"CompileStoryboard UCLA\ Career\ Center/Base.lproj/Main.storyboard    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/Base.lproj/Main.storyboardc /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/Base.lproj/Main.storyboard36"A2E8AF86-C3FA-494B-8898-19193A2D4CE6-
-b9D279161-B436-47A0-B97C-A4F2DF338BD8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard UCLA\ Career\ Center/Base.lproj/Main.storyboard65"CompileStoryboard UCLA\ Career\ Center/Base.lproj/Main.storyboard2311569e0fa8b841^73f399a00fa8b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/cecilricky/Public/UCLA%20Career%20Center/UCLA%20Career%20Center/Base.lproj/Main.storyboard0000000000000000^932"CompileStoryboard UCLA\ Career\ Center/Base.lproj/Main.storyboard    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/Base.lproj/Main.storyboardc /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/Base.lproj/Main.storyboard36"B7C0FE9A-7647-40C1-A987-9D9FE3FDF9DE-
+bFFD5BE6F-6D59-4F68-AF26-B9A04073B36B
 
 CCompileXIB /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/ContactTableCell.xib
 s413666613.124165
@@ -1028,18 +888,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy UC
 b8645EA57-6617-47E6-B0C4-C6AF72696509
 
 CGenerateDSYMFile /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center
-s413957201.986379
-e413957202.013685
+s413667232.536155
+e413667232.625613
 r1
 xGenerateDSYMFile
 x/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app.dSYM
 x/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Generate /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app.dSYM232"GenerateDSYMFile DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center0396fc517cacb841^848103527cacb841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/cecilricky/Public/UCLA%20Career%20Center/DerivedData/UCLA%20Career%20Center/Build/Products/Debug-iphonesimulator/UCLA%20Career%20Center.app.dSYM/0000000000000000^892"GenerateDSYMFile DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM36"35001070-1ACC-4F5D-A55E-7D5EA3D61090-
-b4F1183E2-330C-4B76-B852-9EC9020028A2
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Generate /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app.dSYM232"GenerateDSYMFile DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center435489a00fa8b841^ad50a0a00fa8b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/cecilricky/Public/UCLA%20Career%20Center/DerivedData/UCLA%20Career%20Center/Build/Products/Debug-iphonesimulator/UCLA%20Career%20Center.app.dSYM/0000000000000000^892"GenerateDSYMFile DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app.dSYM36"924AAC04-87D5-4950-AC6E-0433FBB052C1-
+bFFD5BE6F-6D59-4F68-AF26-B9A04073B36B
 
 CLd /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal i386
-s413957201.942849
-e413957201.983357
+s413667230.300603
+e413667230.334875
 r1
 xLd
 x/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center
@@ -1047,30 +907,28 @@ xnormal
 xi386
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/UCLA Career Center.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
-d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/LocationPoint.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ContactTableCell.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/FourthViewController.o
-d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ThirdViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/SecondViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/AppDelegate.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/FirstViewController.o
+d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/ContactInformationViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/i386/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -1092,7 +950,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
@@ -1119,12 +976,12 @@ d/usr/lib/system/libsystem_pthread.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center130"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal i3868f71f1517cacb841^88befb517cacb841^---0#0#1#--1801"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal i386    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -filelist /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/UCLA\ Career\ Center.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework MapKit -framework CoreLocation -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/UCLA\ Career\ Center_dependency_info.dat -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center36"F716272D-0335-44EE-8789-C57BD66986FC-
-b4F1183E2-330C-4B76-B852-9EC9020028A2
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center130"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal i3866c054d9e0fa8b841^9964589e0fa8b841^---0#0#1#--1759"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal i386    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -filelist /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/UCLA\ Career\ Center.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/i386/UCLA\ Career\ Center_dependency_info.dat -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center36"540F92D0-0F70-414E-9DB4-728301D35B94-
+bFFD5BE6F-6D59-4F68-AF26-B9A04073B36B
 
 CLd /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal x86_64
-s413957116.007657
-e413957116.057864
+s413633069.524539
+e413633069.597375
 r1
 xLd
 x/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center
@@ -1132,30 +989,25 @@ xnormal
 xx86_64
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/UCLA Career Center.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
-d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/LocationPoint.o
-d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ContactTableCell.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/FourthViewController.o
-d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ThirdViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/SecondViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/AppDelegate.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/FirstViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/ContactInformationViewController.o
 d/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Intermediates/UCLA Career Center.build/Debug-iphonesimulator/UCLA Career Center.build/Objects-normal/x86_64/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
@@ -1206,8 +1058,8 @@ d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libsystem_stats.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center132"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal x86_64140902fc7bacb841^b20e0ffc7bacb841^---0#0#1#--1809"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal x86_64    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -filelist /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/UCLA\ Career\ Center.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework MapKit -framework CoreLocation -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/UCLA\ Career\ Center_dependency_info.dat -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center36"ACCBF29F-5422-4B9E-98D7-1B3A56E8957D-
-b9E2AE378-30B2-4947-9469-6F87DF59EA15
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app/UCLA Career Center132"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal x86_64e658862d8aa7b841^39ee982d8aa7b841^---0#0#1#--1767"Ld DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center normal x86_64    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -F/Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator -filelist /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/UCLA\ Career\ Center.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Intermediates/UCLA\ Career\ Center.build/Debug-iphonesimulator/UCLA\ Career\ Center.build/Objects-normal/x86_64/UCLA\ Career\ Center_dependency_info.dat -o /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/UCLA\ Career\ Center36"83780D01-C173-4A6C-B4F7-7FADA81C70E1-
+bDA02E295-C589-4F9A-9009-28B7D1D1083F
 
 CProcessInfoPlistFile /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app/Info.plist /Users/cecilricky/Public/UCLA\ Career\ Center/UCLA\ Career\ Center/UCLA\ Career\ Center-Info.plist
 s413654764.239042
@@ -1256,11 +1108,11 @@ CProcessPCH /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Care
 r0
 
 CTouch /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app
-s413957085.012071
-e413957085.018130
+s413667232.626331
+e413667232.633296
 r1
 xTouch
 x/Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Touch /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app100"Touch DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app0b2503dd7bacb841^01a604dd7bacb841^---0#0#1#--512"Touch DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app36"88262C64-10D3-437A-A756-6EBC39C4DDFB-
-b9D279161-B436-47A0-B97C-A4F2DF338BD8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Touch /Users/cecilricky/Public/UCLA Career Center/DerivedData/UCLA Career Center/Build/Products/Debug-iphonesimulator/UCLA Career Center.app100"Touch DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.appc66da0a00fa8b841^c8cfa2a00fa8b841^---0#0#1#--512"Touch DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app    cd "/Users/cecilricky/Public/UCLA Career Center"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cecilricky/Public/UCLA\ Career\ Center/DerivedData/UCLA\ Career\ Center/Build/Products/Debug-iphonesimulator/UCLA\ Career\ Center.app36"7D21FFA0-2099-4AFB-B69C-32C1E9D85A41-
+bFFD5BE6F-6D59-4F68-AF26-B9A04073B36B
 
