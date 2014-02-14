@@ -161,11 +161,11 @@
 		0765D86818A6FDE900D79D34 /* UCLA Career Center */ = {
 			isa = PBXGroup;
 			children = (
-				2F238BC718ADCF2800EDAF73 /* bruinview */,
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
 				07C072B318AC54E3004839E4 /* News Feed */,
+				2F238BC718ADCF2800EDAF73 /* bruinview */,
 				CE0B7A8D18AB15C000A8FCEA /* Map */,
 				CE0B7A8E18AB15E000A8FCEA /* Contact */,
 				0765D87D18A6FDE900D79D34 /* Images.xcassets */,

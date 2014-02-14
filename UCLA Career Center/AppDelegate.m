@@ -19,7 +19,7 @@
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
     
     // Uncomment to change the color of back button
-    //[[UINavigationBar appearance] setTintColor:[UIColor blueColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     // Uncomment to assign a custom backgroung image
     // [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav_bg_ios7.png"] forBarMetrics:UIBarMetricsDefault];
