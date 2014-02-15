@@ -27,6 +27,7 @@
         locationManager = [[CLLocationManager alloc] init];
         [locationManager setDelegate:self];
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+        [locationManager startUpdatingLocation];
     }
     return self;
 }
@@ -58,6 +59,12 @@
         MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(careerCenterLocationCoordinate2D, range, range);
         [worldView setRegion:region animated:YES];
     }
+}
+
+#pragma CLLocationManagerDelegate
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    NSLog(@"Hello");
 }
 
 @end
