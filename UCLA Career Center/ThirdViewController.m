@@ -8,7 +8,7 @@
 
 #import "ThirdViewController.h"
 #import "LocationPoint.h"
-
+#import <Parse/Parse.h>
 @interface ThirdViewController ()
 {
     __weak IBOutlet MKMapView *worldView;

@@ -33,6 +33,16 @@
 		2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BBB18ADCE6300EDAF73 /* TFHpple.m */; };
 		2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */; };
 		2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */; };
+		CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
+		CE06DF7918B9120900F12C79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7818B9120900F12C79 /* AudioToolbox.framework */; };
+		CE06DF7B18B9121100F12C79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7A18B9121100F12C79 /* CFNetwork.framework */; };
+		CE06DF7D18B9122600F12C79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7C18B9122600F12C79 /* libz.dylib */; };
+		CE06DF7F18B9122D00F12C79 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7E18B9122D00F12C79 /* MobileCoreServices.framework */; };
+		CE06DF8118B9123200F12C79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF8018B9123200F12C79 /* QuartzCore.framework */; };
+		CE06DF8318B9123700F12C79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF8218B9123700F12C79 /* Security.framework */; };
+		CE06DF8518B9123E00F12C79 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF8418B9123E00F12C79 /* StoreKit.framework */; };
+		CE06DF8718B9124400F12C79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF8618B9124400F12C79 /* SystemConfiguration.framework */; };
+		CE06DF9818B91AA800F12C79 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06DF9718B91AA800F12C79 /* FifthViewController.m */; };
 		CE0B7A8518AAFBF300A8FCEA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0B7A8418AAFBF300A8FCEA /* ThirdViewController.m */; };
 		CE0B7A8718AB0FE900A8FCEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0B7A8618AB0FE900A8FCEA /* CoreLocation.framework */; };
 		CE0B7A8918AB100000A8FCEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0B7A8818AB100000A8FCEA /* MapKit.framework */; };
@@ -90,6 +100,17 @@
 		2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		2F238BC818ADCF3E00EDAF73 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CE06DF7618B911CE00F12C79 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CE06DF7818B9120900F12C79 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE06DF7A18B9121100F12C79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CE06DF7C18B9122600F12C79 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CE06DF7E18B9122D00F12C79 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CE06DF8018B9123200F12C79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE06DF8218B9123700F12C79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE06DF8418B9123E00F12C79 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CE06DF8618B9124400F12C79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE06DF9618B91AA800F12C79 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FifthViewController.h; path = ../FifthViewController.h; sourceTree = "<group>"; };
+		CE06DF9718B91AA800F12C79 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FifthViewController.m; path = ../FifthViewController.m; sourceTree = "<group>"; };
 		CE0B7A8318AAFBF300A8FCEA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		CE0B7A8418AAFBF300A8FCEA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		CE0B7A8618AB0FE900A8FCEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -103,9 +124,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE06DF8718B9124400F12C79 /* SystemConfiguration.framework in Frameworks */,
+				CE06DF8518B9123E00F12C79 /* StoreKit.framework in Frameworks */,
+				CE06DF8318B9123700F12C79 /* Security.framework in Frameworks */,
+				CE06DF8118B9123200F12C79 /* QuartzCore.framework in Frameworks */,
+				CE06DF7F18B9122D00F12C79 /* MobileCoreServices.framework in Frameworks */,
+				CE06DF7D18B9122600F12C79 /* libz.dylib in Frameworks */,
+				CE06DF7B18B9121100F12C79 /* CFNetwork.framework in Frameworks */,
+				CE06DF7918B9120900F12C79 /* AudioToolbox.framework in Frameworks */,
 				2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */,
 				CE0B7A8918AB100000A8FCEA /* MapKit.framework in Frameworks */,
 				CE0B7A8718AB0FE900A8FCEA /* CoreLocation.framework in Frameworks */,
+				CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */,
 				0765D86518A6FDE900D79D34 /* CoreGraphics.framework in Frameworks */,
 				0765D86718A6FDE900D79D34 /* UIKit.framework in Frameworks */,
 				0765D86318A6FDE900D79D34 /* Foundation.framework in Frameworks */,
@@ -128,6 +158,7 @@
 		0765D85618A6FDE900D79D34 = {
 			isa = PBXGroup;
 			children = (
+				CE06DF7618B911CE00F12C79 /* Parse.framework */,
 				0765D86818A6FDE900D79D34 /* UCLA Career Center */,
 				0765D88A18A6FDE900D79D34 /* UCLA Career CenterTests */,
 				0765D86118A6FDE900D79D34 /* Frameworks */,
@@ -147,6 +178,14 @@
 		0765D86118A6FDE900D79D34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE06DF8618B9124400F12C79 /* SystemConfiguration.framework */,
+				CE06DF8418B9123E00F12C79 /* StoreKit.framework */,
+				CE06DF8218B9123700F12C79 /* Security.framework */,
+				CE06DF8018B9123200F12C79 /* QuartzCore.framework */,
+				CE06DF7E18B9122D00F12C79 /* MobileCoreServices.framework */,
+				CE06DF7C18B9122600F12C79 /* libz.dylib */,
+				CE06DF7A18B9121100F12C79 /* CFNetwork.framework */,
+				CE06DF7818B9120900F12C79 /* AudioToolbox.framework */,
 				2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */,
 				CE0B7A8818AB100000A8FCEA /* MapKit.framework */,
 				CE0B7A8618AB0FE900A8FCEA /* CoreLocation.framework */,
@@ -169,6 +208,7 @@
 				CE0B7A8D18AB15C000A8FCEA /* Map */,
 				CE0B7A8E18AB15E000A8FCEA /* Contact */,
 				0765D87D18A6FDE900D79D34 /* Images.xcassets */,
+				CE06DF8D18B9170400F12C79 /* Connect */,
 				0765D86918A6FDE900D79D34 /* Supporting Files */,
 			);
 			path = "UCLA Career Center";
@@ -248,6 +288,15 @@
 				2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */,
 			);
 			name = bruinview;
+			sourceTree = "<group>";
+		};
+		CE06DF8D18B9170400F12C79 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				CE06DF9618B91AA800F12C79 /* FifthViewController.h */,
+				CE06DF9718B91AA800F12C79 /* FifthViewController.m */,
+			);
+			name = Connect;
 			sourceTree = "<group>";
 		};
 		CE0B7A8D18AB15C000A8FCEA /* Map */ = {
@@ -375,6 +424,7 @@
 				CE0B7A9118AB16D200A8FCEA /* LocationPoint.m in Sources */,
 				07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */,
 				07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */,
+				CE06DF9818B91AA800F12C79 /* FifthViewController.m in Sources */,
 				2F238BBD18ADCE6300EDAF73 /* DetailViewController.m in Sources */,
 				CE0B7A8518AAFBF300A8FCEA /* ThirdViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
@@ -512,6 +562,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
@@ -526,6 +580,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";

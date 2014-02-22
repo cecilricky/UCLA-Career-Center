@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -39,6 +40,9 @@
      shadow, NSShadowAttributeName,
      [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:21.0], NSFontAttributeName, nil]];
     
+    [Parse setApplicationId:@"rhZCNmT4qnhdRwgBAy8s3SZBRRcIWXQXoEXHC5DT"
+                  clientKey:@"qtFCm1CiWm43pMNQFM6P9fPk0u8iWBMayDSvscUo"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
     // Override point for customization after application launch.
     return YES;
