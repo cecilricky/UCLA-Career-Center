@@ -20,6 +20,7 @@
 		0765D88718A6FDE900D79D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765D86618A6FDE900D79D34 /* UIKit.framework */; };
 		0765D88F18A6FDE900D79D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765D88D18A6FDE900D79D34 /* InfoPlist.strings */; };
 		0765D89118A6FDE900D79D34 /* UCLA_Career_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */; };
+		078D0F2318BEED3B00AF52A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
 		07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072AA18A77BA9004839E4 /* FourthViewController.m */; };
 		07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AC18A7EE99004839E4 /* ContactDatas.plist */; };
 		07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AE18A7F603004839E4 /* ContactTableCell.xib */; };
@@ -33,7 +34,6 @@
 		2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BBB18ADCE6300EDAF73 /* TFHpple.m */; };
 		2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */; };
 		2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */; };
-		CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
 		CE06DF7918B9120900F12C79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7818B9120900F12C79 /* AudioToolbox.framework */; };
 		CE06DF7B18B9121100F12C79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7A18B9121100F12C79 /* CFNetwork.framework */; };
 		CE06DF7D18B9122600F12C79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7C18B9122600F12C79 /* libz.dylib */; };
@@ -124,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078D0F2318BEED3B00AF52A9 /* Parse.framework in Frameworks */,
 				CE06DF8718B9124400F12C79 /* SystemConfiguration.framework in Frameworks */,
 				CE06DF8518B9123E00F12C79 /* StoreKit.framework in Frameworks */,
 				CE06DF8318B9123700F12C79 /* Security.framework in Frameworks */,
@@ -135,7 +136,6 @@
 				2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */,
 				CE0B7A8918AB100000A8FCEA /* MapKit.framework in Frameworks */,
 				CE0B7A8718AB0FE900A8FCEA /* CoreLocation.framework in Frameworks */,
-				CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */,
 				0765D86518A6FDE900D79D34 /* CoreGraphics.framework in Frameworks */,
 				0765D86718A6FDE900D79D34 /* UIKit.framework in Frameworks */,
 				0765D86318A6FDE900D79D34 /* Foundation.framework in Frameworks */,
@@ -565,6 +565,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
+					"/Users/cecilricky/Public/UCLA-Career-Center",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
@@ -583,6 +584,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
+					"/Users/cecilricky/Public/UCLA-Career-Center",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
