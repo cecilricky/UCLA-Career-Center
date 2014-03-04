@@ -11,7 +11,7 @@
 
 @interface SecondViewController : UIViewController
 
-// @property (strong, nonatomic) IBOutlet UIWebView *viewWeb;
+@property (strong, nonatomic) IBOutlet UIWebView *viewWeb;
 
 @end
 

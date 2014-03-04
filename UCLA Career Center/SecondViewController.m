@@ -10,7 +10,6 @@
 #import <Parse/Parse.h>
 
 @interface SecondViewController () {
-    __weak IBOutlet UITableView *table;
 }
 
 @end
@@ -20,16 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    NSString *fullURL = @"https://secure.career.ucla.edu/BruinViewLogin/Login.aspx";
-//    NSURL *url = [NSURL URLWithString:fullURL];
-//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-//    [_viewWeb loadRequest:requestObj];
+    NSString *fullURL = @"https://secure.career.ucla.edu/BruinViewLogin/Login.aspx";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_viewWeb loadRequest:requestObj];
     
-    PFQueryTableViewController *controller = [[PFQueryTableViewController alloc]
-                                              initWithClassName:@"Job"];
-
-    table.window.rootViewController = controller;
-    [table.window makeKeyAndVisible];
+//    PFQueryTableViewController *controller = [[PFQueryTableViewController alloc]
+//                                              initWithClassName:@"Job"];
+//
+//    table.window.rootViewController = controller;
+//    [table.window makeKeyAndVisible];
     
 
 }
