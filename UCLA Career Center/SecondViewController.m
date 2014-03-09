@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *fullURL = @"https://secure.career.ucla.edu/BruinViewLogin/Login.aspx";
+    NSString *fullURL = @"https://secure.career.ucla.edu/Login/Default.aspx?AppID=4";
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];

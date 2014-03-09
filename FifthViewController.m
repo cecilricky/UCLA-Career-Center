@@ -7,6 +7,7 @@
 //
 
 #import "FifthViewController.h"
+#import "JobsTableViewController.h"
 #import <Parse/Parse.h>
 
 #define MinPasswordLength 7
@@ -23,7 +24,9 @@
     __weak IBOutlet UISegmentedControl *userType;
     __weak IBOutlet UISegmentedControl *userAction;
     __weak IBOutlet UIButton *nextButton;
+    __weak IBOutlet UIButton *loginButton;
     __weak IBOutlet UILabel *messageLabel;
+    
 }
 
 @end
@@ -38,6 +41,7 @@
     }
     return self;
 }
+
 
 - (void)viewDidLoad
 {
@@ -157,6 +161,8 @@
         [PFUser logInWithUsernameInBackground:[user username] password:[user password] block:^(PFUser *user, NSError *error) {
             if (user) {
                 [messageLabel setText:@"Successful login"];
+                [loginButton sendActionsForControlEvents:UIControlEventTouchUpInside];
+  
                 //Set up the next view.
             }
             else

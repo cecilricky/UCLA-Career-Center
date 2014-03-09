@@ -11,6 +11,6 @@
 #import "Job.h"
 #import "JobDescriptionViewController.h"
 
-@interface JobsTableViewController : UITableViewController
+@interface JobsTableViewController : UITableViewController <UITableViewDelegate>
 
 @end
