@@ -42,16 +42,8 @@
     
     [Parse setApplicationId:@"rhZCNmT4qnhdRwgBAy8s3SZBRRcIWXQXoEXHC5DT"
                   clientKey:@"qtFCm1CiWm43pMNQFM6P9fPk0u8iWBMayDSvscUo"];
-    //[Parse setApplicationId:@"YSGeUsuW59d9rXxviJCSQ2PtpQ2H12t8hRn0KkPA"
-    //              clientKey:@"lqNnmrE99IHJysR9d8DB3cL1g1mDhqwS5K6ZZRyk"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
-    
-//    PFQueryTableViewController *controller = [[PFQueryTableViewController alloc]
-//                                              initWithClassName:@"Job"];
-//    self.window.rootViewController = controller;
-//    [self.window makeKeyAndVisible];
-    
     // Override point for customization after application launch.
     return YES;
 }

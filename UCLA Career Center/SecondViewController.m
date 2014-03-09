@@ -7,10 +7,8 @@
 //
 
 #import "SecondViewController.h"
-#import <Parse/Parse.h>
 
-@interface SecondViewController () {
-}
+@interface SecondViewController ()
 
 @end
 
@@ -23,14 +21,6 @@
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
-    
-//    PFQueryTableViewController *controller = [[PFQueryTableViewController alloc]
-//                                              initWithClassName:@"Job"];
-//
-//    table.window.rootViewController = controller;
-//    [table.window makeKeyAndVisible];
-    
-
 }
 
 - (void)didReceiveMemoryWarning

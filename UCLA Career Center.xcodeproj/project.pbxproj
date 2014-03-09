@@ -20,7 +20,6 @@
 		0765D88718A6FDE900D79D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765D86618A6FDE900D79D34 /* UIKit.framework */; };
 		0765D88F18A6FDE900D79D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765D88D18A6FDE900D79D34 /* InfoPlist.strings */; };
 		0765D89118A6FDE900D79D34 /* UCLA_Career_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765D89018A6FDE900D79D34 /* UCLA_Career_CenterTests.m */; };
-		078D0F2318BEED3B00AF52A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
 		07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072AA18A77BA9004839E4 /* FourthViewController.m */; };
 		07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AC18A7EE99004839E4 /* ContactDatas.plist */; };
 		07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AE18A7F603004839E4 /* ContactTableCell.xib */; };
@@ -34,13 +33,7 @@
 		2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BBB18ADCE6300EDAF73 /* TFHpple.m */; };
 		2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */; };
 		2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */; };
-<<<<<<< HEAD
-		69504C0B18C45D7C003C5514 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = 69504C0A18C45D7C003C5514 /* Job.m */; };
-		69504C0E18C4658E003C5514 /* JobsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69504C0D18C4658E003C5514 /* JobsTableViewController.m */; };
-		69504C1118C465F1003C5514 /* JobDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69504C1018C465F1003C5514 /* JobDescriptionViewController.m */; };
 		CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
-=======
->>>>>>> FETCH_HEAD
 		CE06DF7918B9120900F12C79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7818B9120900F12C79 /* AudioToolbox.framework */; };
 		CE06DF7B18B9121100F12C79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7A18B9121100F12C79 /* CFNetwork.framework */; };
 		CE06DF7D18B9122600F12C79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7C18B9122600F12C79 /* libz.dylib */; };
@@ -107,12 +100,6 @@
 		2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		2F238BC818ADCF3E00EDAF73 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		69504C0918C45D7C003C5514 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
-		69504C0A18C45D7C003C5514 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
-		69504C0C18C4658E003C5514 /* JobsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsTableViewController.h; sourceTree = "<group>"; };
-		69504C0D18C4658E003C5514 /* JobsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsTableViewController.m; sourceTree = "<group>"; };
-		69504C0F18C465F1003C5514 /* JobDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDescriptionViewController.h; sourceTree = "<group>"; };
-		69504C1018C465F1003C5514 /* JobDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDescriptionViewController.m; sourceTree = "<group>"; };
 		CE06DF7618B911CE00F12C79 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		CE06DF7818B9120900F12C79 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CE06DF7A18B9121100F12C79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -137,11 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */,
-=======
-				078D0F2318BEED3B00AF52A9 /* Parse.framework in Frameworks */,
->>>>>>> FETCH_HEAD
 				CE06DF8718B9124400F12C79 /* SystemConfiguration.framework in Frameworks */,
 				CE06DF8518B9123E00F12C79 /* StoreKit.framework in Frameworks */,
 				CE06DF8318B9123700F12C79 /* Security.framework in Frameworks */,
@@ -153,6 +135,7 @@
 				2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */,
 				CE0B7A8918AB100000A8FCEA /* MapKit.framework in Frameworks */,
 				CE0B7A8718AB0FE900A8FCEA /* CoreLocation.framework in Frameworks */,
+				CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */,
 				0765D86518A6FDE900D79D34 /* CoreGraphics.framework in Frameworks */,
 				0765D86718A6FDE900D79D34 /* UIKit.framework in Frameworks */,
 				0765D86318A6FDE900D79D34 /* Foundation.framework in Frameworks */,
@@ -220,12 +203,6 @@
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
-				69504C0F18C465F1003C5514 /* JobDescriptionViewController.h */,
-				69504C1018C465F1003C5514 /* JobDescriptionViewController.m */,
-				69504C0C18C4658E003C5514 /* JobsTableViewController.h */,
-				69504C0D18C4658E003C5514 /* JobsTableViewController.m */,
-				69504C0918C45D7C003C5514 /* Job.h */,
-				69504C0A18C45D7C003C5514 /* Job.m */,
 				07C072B318AC54E3004839E4 /* News Feed */,
 				2F238BC718ADCF2800EDAF73 /* bruinview */,
 				CE0B7A8D18AB15C000A8FCEA /* Map */,
@@ -455,9 +432,6 @@
 				2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */,
 				2F238BBC18ADCE6300EDAF73 /* MasterViewController.m in Sources */,
 				2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */,
-				69504C0B18C45D7C003C5514 /* Job.m in Sources */,
-				69504C0E18C4658E003C5514 /* JobsTableViewController.m in Sources */,
-				69504C1118C465F1003C5514 /* JobDescriptionViewController.m in Sources */,
 				2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */,
 				2F238BC118ADCE6300EDAF73 /* XPathQuery.m in Sources */,
 				2F238BC018ADCE6300EDAF73 /* TFHppleElement.m in Sources */,
@@ -591,11 +565,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
-<<<<<<< HEAD
-					"/Users/lopezg/Desktop/CS130/Career\\ Center\\ Team/UCLA-Career-Center",
-=======
-					"/Users/cecilricky/Public/UCLA-Career-Center",
->>>>>>> FETCH_HEAD
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
@@ -614,11 +583,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
-<<<<<<< HEAD
-					"/Users/lopezg/Desktop/CS130/Career\\ Center\\ Team/UCLA-Career-Center",
-=======
-					"/Users/cecilricky/Public/UCLA-Career-Center",
->>>>>>> FETCH_HEAD
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";

@@ -158,7 +158,6 @@
             if (user) {
                 [messageLabel setText:@"Successful login"];
                 //Set up the next view.
-                
             }
             else
             {
