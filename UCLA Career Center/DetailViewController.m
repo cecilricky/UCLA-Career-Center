@@ -1,8 +1,9 @@
 //
-//  DetailViewController.m
+//  MasterViewController.m
 //  Parsing
 //
 //  Created by liyizhi kou on 14-2-13.
+//  Edited by Tushar Shrimali on 10-03-13
 //  Copyright (c) 2014年 UCLA. All rights reserved.
 //
 

@@ -3,22 +3,23 @@
 //  Parsing
 //
 //  Created by liyizhi kou on 14-2-13.
+//  Edited by Tushar Shrimali on 10-03-13
 //  Copyright (c) 2014年 UCLA. All rights reserved.
 //
 
-#import "MasterViewController.h"
+#import "newcontrollers.h"
 
 #import "DetailViewController.h"
 #import "TFHpple.h"
 #import "Tutorial.h"
 #import "Contributor.h"
 
-@interface MasterViewController () {
+@interface newcontrollers () {
     NSMutableArray *_objects;
 }
 @end
 
-@implementation MasterViewController
+@implementation newcontrollers
 
 - (void)awakeFromNib
 {
@@ -38,14 +39,14 @@
 
 -(void)loadTutorials {
     // 1
-    NSURL *tutorialsUrl = [NSURL URLWithString:@"https://secure.career.ucla.edu/mobile/fairs.aspx"];
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://career.ucla.edu/"];
     NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
     
     // 2
     TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
     
     // 3
-    NSString *tutorialsXpathQueryString = @"//div[@class='menu-full menu-detailed menu-padded']/ol/li/a";
+    NSString *tutorialsXpathQueryString = @"//div[@id='main']/div/div/div/div/a";
     NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
     
     // 4
@@ -60,7 +61,21 @@
         
         // 7
         tutorial.url = [element objectForKey:@"href"];
-        tutorial.url = [@"https://secure.career.ucla.edu/mobile/" stringByAppendingString:tutorial.url];
+    }
+    
+    tutorialsXpathQueryString = @"//div[@id='main']/div/div/div/p/a";
+    tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
+    
+    for (TFHppleElement *element in tutorialsNodes) {
+        // 5
+        Tutorial *tutorial = [[Tutorial alloc] init];
+        [newTutorials addObject:tutorial];
+        
+        // 6
+        tutorial.title = [[element firstChild] content];
+        
+        // 7
+        tutorial.url = [element objectForKey:@"href"];
     }
     
     // 8
@@ -76,16 +91,16 @@
 }
 
 /*
-- (void)insertNewObject:(id)sender
-{
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] init];
-    }
-    [_objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-}
-*/
+ - (void)insertNewObject:(id)sender
+ {
+ if (!_objects) {
+ _objects = [[NSMutableArray alloc] init];
+ }
+ [_objects insertObject:[NSDate date] atIndex:0];
+ NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+ [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+ }
+ */
 
 #pragma mark - Table View
 
@@ -136,20 +151,20 @@
 }
 
 /*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+ {
+ }
+ */
 
 /*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

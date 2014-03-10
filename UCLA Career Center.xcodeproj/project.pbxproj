@@ -24,7 +24,6 @@
 		07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AC18A7EE99004839E4 /* ContactDatas.plist */; };
 		07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C072AE18A7F603004839E4 /* ContactTableCell.xib */; };
 		07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072B118A7F76A004839E4 /* ContactTableCell.m */; };
-		2F238BBC18ADCE6300EDAF73 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BAF18ADCE6300EDAF73 /* MasterViewController.m */; };
 		2F238BBD18ADCE6300EDAF73 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB118ADCE6300EDAF73 /* DetailViewController.m */; };
 		2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB318ADCE6300EDAF73 /* Tutorial.m */; };
 		2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB518ADCE6300EDAF73 /* Contributor.m */; };
@@ -33,10 +32,24 @@
 		2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BBB18ADCE6300EDAF73 /* TFHpple.m */; };
 		2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */; };
 		2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */; };
+		4483761E18CD98C000CE9B2A /* newcontrollers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761B18CD98C000CE9B2A /* newcontrollers.m */; };
+		4483761F18CD98C000CE9B2A /* newcontrollers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761B18CD98C000CE9B2A /* newcontrollers.m */; };
+		4483762018CD98C000CE9B2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761D18CD98C000CE9B2A /* ViewController.m */; };
+		4483762118CD98C000CE9B2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761D18CD98C000CE9B2A /* ViewController.m */; };
+		4483762718CD9A2E00CE9B2A /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762218CD9A2E00CE9B2A /* img4.png */; };
+		4483762818CD9A2E00CE9B2A /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762218CD9A2E00CE9B2A /* img4.png */; };
+		4483762918CD9A2E00CE9B2A /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762318CD9A2E00CE9B2A /* img3.png */; };
+		4483762A18CD9A2E00CE9B2A /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762318CD9A2E00CE9B2A /* img3.png */; };
+		4483762B18CD9A2E00CE9B2A /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762418CD9A2E00CE9B2A /* img2.png */; };
+		4483762C18CD9A2E00CE9B2A /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762418CD9A2E00CE9B2A /* img2.png */; };
+		4483762D18CD9A2E00CE9B2A /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762518CD9A2E00CE9B2A /* img1.png */; };
+		4483762E18CD9A2E00CE9B2A /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762518CD9A2E00CE9B2A /* img1.png */; };
+		4483762F18CD9A2E00CE9B2A /* img0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762618CD9A2E00CE9B2A /* img0.png */; };
+		4483763018CD9A2E00CE9B2A /* img0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4483762618CD9A2E00CE9B2A /* img0.png */; };
+		4483763118CDA11500CE9B2A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
 		69504C0B18C45D7C003C5514 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = 69504C0A18C45D7C003C5514 /* Job.m */; };
 		69504C0E18C4658E003C5514 /* JobsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69504C0D18C4658E003C5514 /* JobsTableViewController.m */; };
 		69504C1118C465F1003C5514 /* JobDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69504C1018C465F1003C5514 /* JobDescriptionViewController.m */; };
-		CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7618B911CE00F12C79 /* Parse.framework */; };
 		CE06DF7918B9120900F12C79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7818B9120900F12C79 /* AudioToolbox.framework */; };
 		CE06DF7B18B9121100F12C79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7A18B9121100F12C79 /* CFNetwork.framework */; };
 		CE06DF7D18B9122600F12C79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06DF7C18B9122600F12C79 /* libz.dylib */; };
@@ -86,8 +99,6 @@
 		07C072AE18A7F603004839E4 /* ContactTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableCell.xib; sourceTree = "<group>"; };
 		07C072B018A7F76A004839E4 /* ContactTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableCell.h; sourceTree = "<group>"; };
 		07C072B118A7F76A004839E4 /* ContactTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableCell.m; sourceTree = "<group>"; };
-		2F238BAE18ADCE6300EDAF73 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		2F238BAF18ADCE6300EDAF73 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		2F238BB018ADCE6300EDAF73 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2F238BB118ADCE6300EDAF73 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		2F238BB218ADCE6300EDAF73 /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
@@ -103,6 +114,15 @@
 		2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		2F238BC818ADCF3E00EDAF73 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4483761A18CD98C000CE9B2A /* newcontrollers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newcontrollers.h; sourceTree = "<group>"; };
+		4483761B18CD98C000CE9B2A /* newcontrollers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newcontrollers.m; sourceTree = "<group>"; };
+		4483761C18CD98C000CE9B2A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4483761D18CD98C000CE9B2A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4483762218CD9A2E00CE9B2A /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4.png; sourceTree = "<group>"; };
+		4483762318CD9A2E00CE9B2A /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
+		4483762418CD9A2E00CE9B2A /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
+		4483762518CD9A2E00CE9B2A /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		4483762618CD9A2E00CE9B2A /* img0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img0.png; sourceTree = "<group>"; };
 		69504C0918C45D7C003C5514 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
 		69504C0A18C45D7C003C5514 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
 		69504C0C18C4658E003C5514 /* JobsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsTableViewController.h; sourceTree = "<group>"; };
@@ -133,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE06DF7718B911CE00F12C79 /* Parse.framework in Frameworks */,
+				4483763118CDA11500CE9B2A /* Parse.framework in Frameworks */,
 				CE06DF8718B9124400F12C79 /* SystemConfiguration.framework in Frameworks */,
 				CE06DF8518B9123E00F12C79 /* StoreKit.framework in Frameworks */,
 				CE06DF8318B9123700F12C79 /* Security.framework in Frameworks */,
@@ -232,6 +252,11 @@
 		0765D86918A6FDE900D79D34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4483762218CD9A2E00CE9B2A /* img4.png */,
+				4483762318CD9A2E00CE9B2A /* img3.png */,
+				4483762418CD9A2E00CE9B2A /* img2.png */,
+				4483762518CD9A2E00CE9B2A /* img1.png */,
+				4483762618CD9A2E00CE9B2A /* img0.png */,
 				0765D86A18A6FDE900D79D34 /* UCLA Career Center-Info.plist */,
 				07C072AC18A7EE99004839E4 /* ContactDatas.plist */,
 				0765D86B18A6FDE900D79D34 /* InfoPlist.strings */,
@@ -264,10 +289,12 @@
 			children = (
 				2F238BC418ADCE7500EDAF73 /* hpple */,
 				2F238BC318ADCE6B00EDAF73 /* Model */,
-				2F238BAE18ADCE6300EDAF73 /* MasterViewController.h */,
-				2F238BAF18ADCE6300EDAF73 /* MasterViewController.m */,
 				2F238BB018ADCE6300EDAF73 /* DetailViewController.h */,
 				2F238BB118ADCE6300EDAF73 /* DetailViewController.m */,
+				4483761A18CD98C000CE9B2A /* newcontrollers.h */,
+				4483761B18CD98C000CE9B2A /* newcontrollers.m */,
+				4483761C18CD98C000CE9B2A /* ViewController.h */,
+				4483761D18CD98C000CE9B2A /* ViewController.m */,
 			);
 			name = "News Feed";
 			sourceTree = "<group>";
@@ -415,6 +442,11 @@
 			files = (
 				0765D87E18A6FDE900D79D34 /* Images.xcassets in Resources */,
 				07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */,
+				4483762D18CD9A2E00CE9B2A /* img1.png in Resources */,
+				4483762B18CD9A2E00CE9B2A /* img2.png in Resources */,
+				4483762718CD9A2E00CE9B2A /* img4.png in Resources */,
+				4483762918CD9A2E00CE9B2A /* img3.png in Resources */,
+				4483762F18CD9A2E00CE9B2A /* img0.png in Resources */,
 				07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */,
 				0765D86D18A6FDE900D79D34 /* InfoPlist.strings in Resources */,
 				0765D87618A6FDE900D79D34 /* Main.storyboard in Resources */,
@@ -425,7 +457,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4483762818CD9A2E00CE9B2A /* img4.png in Resources */,
+				4483762E18CD9A2E00CE9B2A /* img1.png in Resources */,
+				4483763018CD9A2E00CE9B2A /* img0.png in Resources */,
 				0765D88F18A6FDE900D79D34 /* InfoPlist.strings in Resources */,
+				4483762C18CD9A2E00CE9B2A /* img2.png in Resources */,
+				4483762A18CD9A2E00CE9B2A /* img3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,15 +477,16 @@
 				07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */,
 				07C072AB18A77BA9004839E4 /* FourthViewController.m in Sources */,
 				CE06DF9818B91AA800F12C79 /* FifthViewController.m in Sources */,
+				4483761E18CD98C000CE9B2A /* newcontrollers.m in Sources */,
 				2F238BBD18ADCE6300EDAF73 /* DetailViewController.m in Sources */,
 				CE0B7A8518AAFBF300A8FCEA /* ThirdViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
 				0765D86F18A6FDE900D79D34 /* main.m in Sources */,
 				2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */,
-				2F238BBC18ADCE6300EDAF73 /* MasterViewController.m in Sources */,
 				2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */,
 				69504C0B18C45D7C003C5514 /* Job.m in Sources */,
 				69504C0E18C4658E003C5514 /* JobsTableViewController.m in Sources */,
+				4483762018CD98C000CE9B2A /* ViewController.m in Sources */,
 				69504C1118C465F1003C5514 /* JobDescriptionViewController.m in Sources */,
 				2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */,
 				2F238BC118ADCE6300EDAF73 /* XPathQuery.m in Sources */,
@@ -461,6 +499,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4483762118CD98C000CE9B2A /* ViewController.m in Sources */,
+				4483761F18CD98C000CE9B2A /* newcontrollers.m in Sources */,
 				0765D89118A6FDE900D79D34 /* UCLA_Career_CenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +624,7 @@
 					"$(inherited)",
 					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
 					"/Users/lopezg/Desktop/CS130/Career\\ Center\\ Team/UCLA-Career-Center",
+					"/Users/tusharshrimali/Desktop/Career\\ Center/UCLA-Career-Center",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
@@ -603,6 +644,7 @@
 					"$(inherited)",
 					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
 					"/Users/lopezg/Desktop/CS130/Career\\ Center\\ Team/UCLA-Career-Center",
+					"/Users/tusharshrimali/Desktop/Career\\ Center/UCLA-Career-Center",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
