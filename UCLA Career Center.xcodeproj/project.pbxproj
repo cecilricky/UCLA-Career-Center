@@ -26,12 +26,17 @@
 		07C072B218A7F76A004839E4 /* ContactTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C072B118A7F76A004839E4 /* ContactTableCell.m */; };
 		2F238BBD18ADCE6300EDAF73 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB118ADCE6300EDAF73 /* DetailViewController.m */; };
 		2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB318ADCE6300EDAF73 /* Tutorial.m */; };
-		2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB518ADCE6300EDAF73 /* Contributor.m */; };
 		2F238BC018ADCE6300EDAF73 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB718ADCE6300EDAF73 /* TFHppleElement.m */; };
 		2F238BC118ADCE6300EDAF73 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BB918ADCE6300EDAF73 /* XPathQuery.m */; };
 		2F238BC218ADCE6300EDAF73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BBB18ADCE6300EDAF73 /* TFHpple.m */; };
 		2F238BC618ADCEFE00EDAF73 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */; };
 		2F238BCA18ADCF3E00EDAF73 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */; };
+		2FF6C1D818D034700066C0D7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6C1D718D034700066C0D7 /* MasterViewController.m */; };
+		2FF6C1F218D1A4E90066C0D7 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6C1F118D1A4E90066C0D7 /* map@2x.png */; };
+		2FF6C1F418D1A5C30066C0D7 /* events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6C1F318D1A5C30066C0D7 /* events@2x.png */; };
+		2FF6C1F818D1A7350066C0D7 /* view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6C1F518D1A7350066C0D7 /* view@2x.png */; };
+		2FF6C1F918D1A7350066C0D7 /* contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6C1F618D1A7350066C0D7 /* contact@2x.png */; };
+		2FF6C1FA18D1A7350066C0D7 /* connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6C1F718D1A7350066C0D7 /* connect@2x.png */; };
 		4483761E18CD98C000CE9B2A /* newcontrollers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761B18CD98C000CE9B2A /* newcontrollers.m */; };
 		4483761F18CD98C000CE9B2A /* newcontrollers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761B18CD98C000CE9B2A /* newcontrollers.m */; };
 		4483762018CD98C000CE9B2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483761D18CD98C000CE9B2A /* ViewController.m */; };
@@ -103,8 +108,6 @@
 		2F238BB118ADCE6300EDAF73 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		2F238BB218ADCE6300EDAF73 /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
 		2F238BB318ADCE6300EDAF73 /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
-		2F238BB418ADCE6300EDAF73 /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
-		2F238BB518ADCE6300EDAF73 /* Contributor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributor.m; sourceTree = "<group>"; };
 		2F238BB618ADCE6300EDAF73 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
 		2F238BB718ADCE6300EDAF73 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		2F238BB818ADCE6300EDAF73 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
@@ -114,6 +117,13 @@
 		2F238BC518ADCEFE00EDAF73 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		2F238BC818ADCF3E00EDAF73 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2FF6C1D618D034700066C0D7 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2FF6C1D718D034700066C0D7 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2FF6C1F118D1A4E90066C0D7 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		2FF6C1F318D1A5C30066C0D7 /* events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events@2x.png"; sourceTree = "<group>"; };
+		2FF6C1F518D1A7350066C0D7 /* view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view@2x.png"; sourceTree = "<group>"; };
+		2FF6C1F618D1A7350066C0D7 /* contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact@2x.png"; sourceTree = "<group>"; };
+		2FF6C1F718D1A7350066C0D7 /* connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect@2x.png"; sourceTree = "<group>"; };
 		4483761A18CD98C000CE9B2A /* newcontrollers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newcontrollers.h; sourceTree = "<group>"; };
 		4483761B18CD98C000CE9B2A /* newcontrollers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newcontrollers.m; sourceTree = "<group>"; };
 		4483761C18CD98C000CE9B2A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -229,6 +239,7 @@
 		0765D86818A6FDE900D79D34 /* UCLA Career Center */ = {
 			isa = PBXGroup;
 			children = (
+				2FF6C1DC18D18B970066C0D7 /* Designs */,
 				0765D87118A6FDE900D79D34 /* AppDelegate.h */,
 				0765D87218A6FDE900D79D34 /* AppDelegate.m */,
 				0765D87418A6FDE900D79D34 /* Main.storyboard */,
@@ -295,6 +306,8 @@
 				4483761B18CD98C000CE9B2A /* newcontrollers.m */,
 				4483761C18CD98C000CE9B2A /* ViewController.h */,
 				4483761D18CD98C000CE9B2A /* ViewController.m */,
+				2FF6C1D618D034700066C0D7 /* MasterViewController.h */,
+				2FF6C1D718D034700066C0D7 /* MasterViewController.m */,
 			);
 			name = "News Feed";
 			sourceTree = "<group>";
@@ -304,8 +317,6 @@
 			children = (
 				2F238BB218ADCE6300EDAF73 /* Tutorial.h */,
 				2F238BB318ADCE6300EDAF73 /* Tutorial.m */,
-				2F238BB418ADCE6300EDAF73 /* Contributor.h */,
-				2F238BB518ADCE6300EDAF73 /* Contributor.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -330,6 +341,18 @@
 				2F238BC918ADCF3E00EDAF73 /* SecondViewController.m */,
 			);
 			name = bruinview;
+			sourceTree = "<group>";
+		};
+		2FF6C1DC18D18B970066C0D7 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6C1F518D1A7350066C0D7 /* view@2x.png */,
+				2FF6C1F618D1A7350066C0D7 /* contact@2x.png */,
+				2FF6C1F718D1A7350066C0D7 /* connect@2x.png */,
+				2FF6C1F318D1A5C30066C0D7 /* events@2x.png */,
+				2FF6C1F118D1A4E90066C0D7 /* map@2x.png */,
+			);
+			name = Designs;
 			sourceTree = "<group>";
 		};
 		CE06DF8D18B9170400F12C79 /* Connect */ = {
@@ -444,12 +467,17 @@
 				07C072AD18A7EE99004839E4 /* ContactDatas.plist in Resources */,
 				4483762D18CD9A2E00CE9B2A /* img1.png in Resources */,
 				4483762B18CD9A2E00CE9B2A /* img2.png in Resources */,
+				2FF6C1F218D1A4E90066C0D7 /* map@2x.png in Resources */,
+				2FF6C1F818D1A7350066C0D7 /* view@2x.png in Resources */,
 				4483762718CD9A2E00CE9B2A /* img4.png in Resources */,
+				2FF6C1FA18D1A7350066C0D7 /* connect@2x.png in Resources */,
 				4483762918CD9A2E00CE9B2A /* img3.png in Resources */,
 				4483762F18CD9A2E00CE9B2A /* img0.png in Resources */,
 				07C072AF18A7F603004839E4 /* ContactTableCell.xib in Resources */,
 				0765D86D18A6FDE900D79D34 /* InfoPlist.strings in Resources */,
+				2FF6C1F918D1A7350066C0D7 /* contact@2x.png in Resources */,
 				0765D87618A6FDE900D79D34 /* Main.storyboard in Resources */,
+				2FF6C1F418D1A5C30066C0D7 /* events@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,9 +510,9 @@
 				CE0B7A8518AAFBF300A8FCEA /* ThirdViewController.m in Sources */,
 				0765D87318A6FDE900D79D34 /* AppDelegate.m in Sources */,
 				0765D86F18A6FDE900D79D34 /* main.m in Sources */,
-				2F238BBF18ADCE6300EDAF73 /* Contributor.m in Sources */,
 				2F238BBE18ADCE6300EDAF73 /* Tutorial.m in Sources */,
 				69504C0B18C45D7C003C5514 /* Job.m in Sources */,
+				2FF6C1D818D034700066C0D7 /* MasterViewController.m in Sources */,
 				69504C0E18C4658E003C5514 /* JobsTableViewController.m in Sources */,
 				4483762018CD98C000CE9B2A /* ViewController.m in Sources */,
 				69504C1118C465F1003C5514 /* JobDescriptionViewController.m in Sources */,
@@ -620,12 +648,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
-					"/Users/lopezg/Desktop/CS130/Career\\ Center\\ Team/UCLA-Career-Center",
-					"/Users/tusharshrimali/Desktop/Career\\ Center/UCLA-Career-Center",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\n$(SRCROOT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
@@ -640,12 +663,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/user/Documents/UCLA\\ Junior\\ Year/Winter\\ Quarter\\ 2014/CS\\ 130/UCLA-Career-Center",
-					"/Users/lopezg/Desktop/CS130/Career\\ Center\\ Team/UCLA-Career-Center",
-					"/Users/tusharshrimali/Desktop/Career\\ Center/UCLA-Career-Center",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\n$(SRCROOT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLA Career Center/UCLA Career Center-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";

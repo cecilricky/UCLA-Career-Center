@@ -1,10 +1,9 @@
 //
-//  MasterViewController.m
-//  Parsing
+//  DetailViewController.h
+//  HTMLParsing
 //
-//  Created by liyizhi kou on 14-2-13.
-//  Edited by Tushar Shrimali on 10-03-13
-//  Copyright (c) 2014年 UCLA. All rights reserved.
+//  Created by Matt Galloway on 19/05/2012.
+//  Copyright (c) 2012 Swipe Stack Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -13,5 +12,10 @@
 
 @property (strong, nonatomic) id detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (strong, nonatomic) IBOutlet UIWebView *viewWeb;
+
+@property (strong, nonatomic) NSString *selecturl;
+
 @end

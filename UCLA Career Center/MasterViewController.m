@@ -1,25 +1,25 @@
 //
 //  MasterViewController.m
-//  Parsing
+//  HTMLParsing
 //
-//  Created by liyizhi kou on 14-2-13.
-//  Edited by Tushar Shrimali on 10-03-13
-//  Copyright (c) 2014年 UCLA. All rights reserved.
+//  Created by Matt Galloway on 19/05/2012.
+//  Copyright (c) 2012 Swipe Stack Ltd. All rights reserved.
 //
 
-#import "newcontrollers.h"
+#import "MasterViewController.h"
 
 #import "DetailViewController.h"
+
 #import "TFHpple.h"
 #import "Tutorial.h"
 
 
-@interface newcontrollers () {
+@interface MasterViewController () {
     NSMutableArray *_objects;
 }
 @end
 
-@implementation newcontrollers
+@implementation MasterViewController
 
 - (void)awakeFromNib
 {
@@ -29,24 +29,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-    [self loadTutorials];
+	[self loadTutorials];
 }
-
-
-//ADD FUNCTIONS
 
 -(void)loadTutorials {
     // 1
-    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://career.ucla.edu/"];
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://cssauclabbs.org/uclacareercenter/cc.html"];
     NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
     
     // 2
     TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
     
     // 3
-    NSString *tutorialsXpathQueryString = @"//div[@id='main']/div/div/div/div/a";
+    NSString *tutorialsXpathQueryString = @"//div[@class='events']/ul/li/a";
     NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
     
     // 4
@@ -61,27 +56,14 @@
         
         // 7
         tutorial.url = [element objectForKey:@"href"];
+      //  NSString* siteurl = @"http://guishanyijia.com/";
+        //tutorial.url = [siteurl stringByAppendingString:tutorial.url];
     }
-    
-    tutorialsXpathQueryString = @"//div[@id='main']/div/div/div/p/a";
-    tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
-    
-    for (TFHppleElement *element in tutorialsNodes) {
-        // 5
-        Tutorial *tutorial = [[Tutorial alloc] init];
-        [newTutorials addObject:tutorial];
-        
-        // 6
-        tutorial.title = [[element firstChild] content];
-        
-        // 7
-        tutorial.url = [element objectForKey:@"href"];
-    }
-    
     // 8
     _objects = newTutorials;
     [self.tableView reloadData];
 }
+
 
 
 - (void)didReceiveMemoryWarning
@@ -90,17 +72,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
- - (void)insertNewObject:(id)sender
- {
- if (!_objects) {
- _objects = [[NSMutableArray alloc] init];
- }
- [_objects insertObject:[NSDate date] atIndex:0];
- NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
- [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
- }
- */
+- (void)insertNewObject:(id)sender
+{
+    if (!_objects) {
+        _objects = [[NSMutableArray alloc] init];
+    }
+    [_objects insertObject:[NSDate date] atIndex:0];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
 
 #pragma mark - Table View
 
@@ -124,12 +104,11 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
-    cell.textLabel.font = [UIFont systemFontOfSize:14];
-    cell.detailTextLabel.font = [UIFont systemFontOfSize:8];
-    
     Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
+    cell.textLabel.numberOfLines = 2;
+    cell.textLabel.font = [UIFont systemFontOfSize:14];
     cell.textLabel.text = thisTutorial.title;
-    cell.detailTextLabel.text = thisTutorial.url;
+  //  cell.detailTextLabel.text = thisTutorial.url;
     
     return cell;
 }
@@ -170,9 +149,21 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+     //   NSDate *object = _objects[indexPath.row];
+        Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
+        [[segue destinationViewController] setSelecturl:thisTutorial.url];
     }
 }
+
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if (!self.detailViewController) {
+//        self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+//    }
+//    NSDate *object = [_objects objectAtIndex:indexPath.row];
+//    self.detailViewController.detailItem = object;
+//    [self.navigationController pushViewController:self.detailViewController animated:YES];
+//}
+
 
 @end
