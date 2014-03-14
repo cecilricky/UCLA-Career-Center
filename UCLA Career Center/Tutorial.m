@@ -12,5 +12,6 @@
 
 @synthesize title =_title;
 @synthesize url =_url;
+@synthesize time =_time;
 
 @end

@@ -16,6 +16,7 @@
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
+    NSMutableArray *_objects2;
 }
 @end
 
@@ -29,9 +30,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //image slide section
+    NSArray * imageArray  = [[NSArray alloc] initWithObjects:
+                             [UIImage imageNamed:@"img1.png"],
+                             [UIImage imageNamed:@"img2.png"],
+                             [UIImage imageNamed:@"img3.png"],
+                             [UIImage imageNamed:@"img4.png"],
+                             nil];
+    //    _ImageSection = [[UIImageView alloc] initWithFrame:
+    //                             CGRectMake(100, 125, 150, 130)];
+    _ImageSection.animationImages = imageArray;
+    _ImageSection.animationDuration = 15;
+    [self.view addSubview:_ImageSection];
+    [_ImageSection startAnimating];
+    
+    
 	[self loadTutorials];
+    [self loadTutorials2];
+    
 }
 
+//For events section
 -(void)loadTutorials {
     // 1
     NSURL *tutorialsUrl = [NSURL URLWithString:@"http://cssauclabbs.org/uclacareercenter/cc.html"];
@@ -56,13 +76,51 @@
         
         // 7
         tutorial.url = [element objectForKey:@"href"];
+        tutorial.time = [element objectForKey:@"alt"];
       //  NSString* siteurl = @"http://guishanyijia.com/";
         //tutorial.url = [siteurl stringByAppendingString:tutorial.url];
     }
-    // 8
+    
+       // 8
     _objects = newTutorials;
     [self.tableView reloadData];
 }
+
+//ForJumpStart Section
+-(void)loadTutorials2 {
+    // 1
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://cssauclabbs.org/uclacareercenter/cc.html"];
+    NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
+    
+    // 2
+    TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
+    
+    // 3
+    NSString *tutorialsXpathQueryString = @"//div[@class='workshops']/ul/li/a";
+    NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
+    
+    // 4
+    NSMutableArray *newTutorials = [[NSMutableArray alloc] initWithCapacity:0];
+    for (TFHppleElement *element in tutorialsNodes) {
+        // 5
+        Tutorial *tutorial = [[Tutorial alloc] init];
+        [newTutorials addObject:tutorial];
+        
+        // 6
+        tutorial.title = [[element firstChild] content];
+        
+        // 7
+        tutorial.url = [element objectForKey:@"href"];
+        tutorial.time = [element objectForKey:@"alt"];
+        //  NSString* siteurl = @"http://guishanyijia.com/";
+        //tutorial.url = [siteurl stringByAppendingString:tutorial.url];
+    }
+    
+    // 8
+    _objects2 = newTutorials;
+    [self.tableView reloadData];
+}
+
 
 
 
@@ -84,14 +142,47 @@
 
 #pragma mark - Table View
 
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section
+{
+    if([view isKindOfClass:[UITableViewHeaderFooterView class]]){
+        
+        UITableViewHeaderFooterView *tableViewHeaderFooterView = (UITableViewHeaderFooterView *) view;
+        tableViewHeaderFooterView.textLabel.textColor = [UIColor grayColor];
+    }
+}
+
+
+-(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+  
+    
+    switch (section) {
+        case 0:
+            return @"Events";
+            break;
+        case 1:
+            return @"JumpStart";
+            break;
+    }
+    return nil;
+}
+
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    switch (section) {
+        case 0:
+            return _objects.count;
+            break;
+        case 1:
+            return _objects2.count;
+            break;
+    }
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -104,10 +195,19 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
-    Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.numberOfLines = 2;
-    cell.textLabel.font = [UIFont systemFontOfSize:14];
-    cell.textLabel.text = thisTutorial.title;
+    cell.textLabel.font = [UIFont systemFontOfSize:16];
+    cell.detailTextLabel.font = [UIFont systemFontOfSize:10];
+    
+    if (indexPath.section == 0) {
+        Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
+        cell.textLabel.text = thisTutorial.title;
+        cell.detailTextLabel.text = thisTutorial.time;
+    
+    } else if (indexPath.section == 1) {
+        Tutorial *thisTutorial2 = [_objects2 objectAtIndex:indexPath.row];
+        cell.textLabel.text = thisTutorial2.title;
+        cell.detailTextLabel.text = thisTutorial2.time;
+    }
   //  cell.detailTextLabel.text = thisTutorial.url;
     
     return cell;
@@ -151,7 +251,9 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
      //   NSDate *object = _objects[indexPath.row];
         Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
+        Tutorial *thisTutorial2 = [_objects2 objectAtIndex:indexPath.row];
         [[segue destinationViewController] setSelecturl:thisTutorial.url];
+        [[segue destinationViewController] setSelecturl:thisTutorial2.url];
     }
 }
 
