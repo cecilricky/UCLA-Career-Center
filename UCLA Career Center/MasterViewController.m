@@ -250,10 +250,17 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
      //   NSDate *object = _objects[indexPath.row];
-        Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
-        Tutorial *thisTutorial2 = [_objects2 objectAtIndex:indexPath.row];
-        [[segue destinationViewController] setSelecturl:thisTutorial.url];
-        [[segue destinationViewController] setSelecturl:thisTutorial2.url];
+       
+       if (indexPath.section == 0) {
+             Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
+            [[segue destinationViewController] setSelecturl:thisTutorial.url];
+            
+        } else if (indexPath.section == 1) {
+            Tutorial *thisTutorial2 = [_objects2 objectAtIndex:indexPath.row];
+            [[segue destinationViewController] setSelecturl:thisTutorial2.url];
+            
+        }
+            
     }
 }
 
